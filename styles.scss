@@ -1,0 +1,107 @@
+$theme-color: #208594;
+$header-color: #60BBB2;
+
+header {
+  background-color: $header-color;
+  color: white;
+  border-bottom: 4px solid darken($theme-color, 20%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    // border-radius: 150px;
+    // border: 4px solid darken($theme-color, 20%);
+    padding: 15px;
+    margin: 0 auto;
+  }
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 100px;
+  color: darken($theme-color, 10%);
+  font-weight: lighter;
+  .column {
+    width: 300px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 4px solid darken($theme-color, 20%);
+    margin: 0 auto;
+    display: block;
+  }
+  h2 {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h3 {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #highlight {
+    img {
+    }
+    h2, h3 {
+      font-weight: bold;
+    }
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px;
+  color: darken($theme-color, 10%);
+  background-color: $header-color;
+  border-top: 4px solid darken($theme-color, 20%);
+  .data {
+    padding-bottom: 100px;
+    h1 {
+      line-height: 50px;
+      padding: 0 10px;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    #table_div_del_sum, #table_div_emp_data {
+      max-width: 100%;
+      color: darken($theme-color, 10%);
+      margin: 0 auto;
+    }
+    #piechart1, #piechart2 {
+      border: 4px solid darken($theme-color, 20%);
+      padding: 0;
+      margin: 0 auto;
+    }
+    .pie-chart-wrapper {
+      display: flex;
+      flex-direction: row;
+      .pie-chart {
+        justify-content: center;
+        width: 80%;
+      }
+    }
+  }
+  img {
+    width: 50%;
+    border: 4px solid darken($theme-color, 20%);
+    margin: 0 auto 30px;
+  }
+}
+footer {
+  background-color: $theme-color;
+  color: white;
+  border-top: 4px solid darken($theme-color, 20%);
+  height: 50px;
+}

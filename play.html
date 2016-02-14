@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Play</title>
+  <script src='Chart.js'></script>
+  <link rel="stylesheet" href="play-css.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <div style="width: 100%; height: 100%;">
+    <canvas id="pie_chart1" width="600" height="400"></canvas>
+  </div>
+  <div class="legend">
+    <div class="title">
+      <div class="color-sample" style="border-color: #FF5A7F; background-color: #FF5A5E;"></div>
+      Name
+    </div>
+
+  </div>
+  <script>
+    var pieData = [
+      {
+          value: 300,
+          color: "#FF5A5E",
+          // highlight: "#FF5A7E",
+          label: "Red"
+      },
+      {
+          value: 50,
+          color: "#208594",
+          // highlight: "#208594",
+          label: "Green"
+      },
+      {
+          value: 100,
+          color: "#FDB45C",
+          // highlight: "#FFC870",
+          label: "Yellow"
+      },
+      {
+          value: 100,
+          color: "#60BBB2",
+          // highlight: "#FFC870",
+          label: "Turq"
+      },
+    ];
+    var pieOptions = {
+    	segmentShowStroke : false,
+    	animateScale : true
+    }
+    var pie_chart1 = document.getElementById("pie_chart1").getContext("2d");
+    new Chart(pie_chart1).Pie(pieData, pieOptions);
+
+  </script>
+</body>
+
+</html>
