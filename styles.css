@@ -143,12 +143,6 @@ footer {
           width: 95%; }
           .content .data ul li .container {
             border: 2px solid #0e3a40; }
-            .content .data ul li .container .canvas {
-              width: 50%;
-              height: 50%; }
-            .content .data ul li .container #pie_chart1, .content .data ul li .container #pie_chart2 {
-              width: 100;
-              height: 100; }
             .content .data ul li .container .legend {
               font-size: 10px; }
               .content .data ul li .container .legend .title {
