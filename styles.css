@@ -1,0 +1,161 @@
+header {
+  background-color: #60BBB2;
+  color: #ffffff;
+  border-bottom: 4px solid #0e3a40;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  header img {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin: 0 auto; }
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 75px;
+  color: #175f6a;
+  font-weight: lighter; }
+  .columns .column {
+    width: 300px; }
+  .columns img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 4px solid #0e3a40;
+    margin: 0 auto;
+    display: block; }
+  .columns h2 {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center; }
+  .columns h3 {
+    margin: 0 auto;
+    text-align: center; }
+  .columns #highlight h2, .columns #highlight h3 {
+    font-weight: bold; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px;
+  color: #175f6a;
+  background-color: #60BBB2;
+  border-top: 4px solid #0e3a40; }
+  .content .data {
+    padding-bottom: 100px; }
+    .content .data h1 {
+      line-height: 50px;
+      padding: 0 10px;
+      margin: 0 auto;
+      justify-content: center; }
+    .content .data #table_div_del_sum, .content .data #table_div_emp_data {
+      max-width: 100%;
+      color: #175f6a;
+      margin: 0 auto; }
+    .content .data ul {
+      margin: 0 auto;
+      display: inline;
+      list-style: none;
+      padding: 0 10px; }
+      .content .data ul li {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 50%; }
+        .content .data ul li .container {
+          background-color: #ffffff;
+          border: 4px solid #0e3a40;
+          padding: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .content .data ul li .container .canvas {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .content .data ul li .container .canvas canvas {
+              margin: 0 auto;
+              padding: 10px; }
+          .content .data ul li .container .legend {
+            background-color: #ffffff;
+            margin: 0 auto;
+            padding: 10px; }
+            .content .data ul li .container .legend .title {
+              display: block; }
+  .content img {
+    width: 500px;
+    border: 4px solid #0e3a40;
+    margin: 0 auto 30px; }
+
+footer {
+  background-color: #208594;
+  color: #ffffff;
+  border-top: 4px solid #0e3a40;
+  height: 50px; }
+
+@media screen and (max-width: 768px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+    .columns .column {
+      width: 100%; }
+    .columns img {
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+      border: 2px solid #0e3a40;
+      margin: 0 auto;
+      display: block; }
+    .columns h2 {
+      font-size: 14px; }
+    .columns h3 {
+      font-size: 12px;
+      padding-bottom: 20px; }
+    .columns #highlight h2, .columns #highlight h3 {
+      font-weight: bold; }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    color: #175f6a;
+    background-color: #60BBB2;
+    border-top: 2px solid #0e3a40; }
+    .content .data {
+      padding-bottom: 50px; }
+      .content .data h1 {
+        font-size: 12px; }
+      .content .data ul {
+        margin: 0 auto;
+        display: inline;
+        list-style: none;
+        padding: 0 10px; }
+        .content .data ul li {
+          list-style: none;
+          padding: 0;
+          margin: 0 auto;
+          width: 95%; }
+          .content .data ul li .container {
+            border: 2px solid #0e3a40; }
+            .content .data ul li .container .legend {
+              font-size: 10px; }
+              .content .data ul li .container .legend .title {
+                display: block;
+                font-size: 10px; }
+    .content img {
+      width: 80%;
+      border: 2px solid #0e3a40; }
+
+  footer {
+    background-color: #208594;
+    color: #ffffff;
+    border-top: 2px solid #0e3a40;
+    height: 25px; } }
+
+/*# sourceMappingURL=styles.css.map */
