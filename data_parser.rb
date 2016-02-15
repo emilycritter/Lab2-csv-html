@@ -15,13 +15,11 @@ def parse_data_cont file_name, rows
   rows
 end
 
-
 def formatted_number(n)
-  a,b = sprintf("%0.2f", n).split('.')
-  a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
-  "$#{a}.#{b}"
+	a,b = sprintf("%0.2f", n).split('.')
+	a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
+	"$#{a}.#{b}"
 end
-
 
 def add_pilot ary_of_hsh
   ary_of_hsh.each do |hsh|
