@@ -184,10 +184,10 @@ end
 new_html = ERB.new(the_html).result(binding)
 
 # ==================== write
-File.open('report.html', 'wb') do |file|
+File.open('index.html', 'wb') do |file|
   file.write new_html
   file.close
 end
 
 # open file when run
-system 'open report.html'
+system 'open index.html'
