@@ -1,0 +1,3914 @@
+Last login: Thu Feb 11 09:02:39 on ttys000
+Emilys-MacBook-Pro:~ emilyritter$ cd Documents/Projects/
+Emilys-MacBook-Pro:Projects emilyritter$ ls
+Programs			font-awesome-4.5.0
+TIY				ghpages-example
+bootstrap-3.3.6-dist		test
+bootstrap-3.3.6-dist.zip
+Emilys-MacBook-Pro:Projects emilyritter$ cd TIY/
+Emilys-MacBook-Pro:TIY emilyritter$ ls
+HW02			Lab2-csv-html		responsive
+HW03-Octodex		flexbox			ruby-examples
+HW04-ruby-basics	flip			scss-example
+HW05-ruby-data		git-examples
+Lab1-Tshirts		google-charts
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ./data_parser.rb planet_express_logs.csv > report.html
+-bash: ./data_parser.rb: Permission denied
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+open report.html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ 
+  [Restored Feb 12, 2016, 9:00:54 AM]
+Last login: Fri Feb 12 09:00:52 on console
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ pwd
+/Users/emilyritter/Documents/Projects/TIY/Lab2-csv-html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch :ab2
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      error No such file or directory @ rb_sysopen - 
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+^CEmilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+ç
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[["Pilot", "Delivery Count"], ["Fry", 2], ["Lela", 5], ["Amy", 1], ["Bender", 2]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+2
+Lela
+5
+Amy
+1
+Bender
+2
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:95: syntax error, unexpected ']', expecting ')'
+...tted_number(hsh[:delivery_sum]])}
+...                               ^
+data_parser.rb:119: syntax error, unexpected end-of-input, expecting '}'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ pwd
+/Users/emilyritter/Documents/Projects
+Emilys-MacBook-Pro:Projects emilyritter$ ls
+Programs			font-awesome-4.5.0
+TIY				ghpages-example
+bootstrap-3.3.6-dist		test
+bootstrap-3.3.6-dist.zip
+Emilys-MacBook-Pro:Projects emilyritter$ cd Programs/
+Emilys-MacBook-Pro:Programs emilyritter$ ls
+CodeSchool			RailsInstaller
+GA Dash				RubyOffRails
+LearnToProgram_ChrisPine	isabel-ritter
+MyPlayground.playground
+Emilys-MacBook-Pro:Programs emilyritter$ sass --watch isabel-ritter/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: isabel-ritter/styles.scss
+      write isabel-ritter/styles.css
+      write isabel-ritter/styles.css.map
+^CEmilys-MacBook-Pro:Programs emilyritter$ 
+Emilys-MacBook-Pro:Programs emilyritter$ cd isabel-ritter/
+Emilys-MacBook-Pro:isabel-ritter emilyritter$ surge
+
+    Surge - surge.sh
+
+              email: emily.c.ritter@gmail.com
+              token: *****************
+       project path: /Users/emilyritter/Documents/Projects/Programs/isabel-ritter/
+               size: 29 files, 28.2 MB
+             domain: insidious-news.surge.sh
+             upload: [====================] 100%, eta: 0.0s
+   propagate on CDN: [====================] 100% 
+               plan: Free
+              users: emily.c.ritter@gmail.com
+         IP address: 192.241.214.148
+
+    Success! Project is published and running at insidious-news.surge.sh
+
+Emilys-MacBook-Pro:isabel-ritter emilyritter$ cd ..
+Emilys-MacBook-Pro:Programs emilyritter$ sass --watch isabel-ritter/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: isabel-ritter/styles.scss
+      write isabel-ritter/styles.css
+      write isabel-ritter/styles.css.map
+>>> Change detected to: isabel-ritter/styles.scss
+      write isabel-ritter/styles.css
+      write isabel-ritter/styles.css.map
+>>> Change detected to: isabel-ritter/styles.scss
+      write isabel-ritter/styles.css
+      write isabel-ritter/styles.css.map
+^CEmilys-MacBook-Pro:Programs emilyritter$ 
+Emilys-MacBook-Pro:Programs emilyritter$ cd isabel-ritter/
+Emilys-MacBook-Pro:isabel-ritter emilyritter$ surge
+
+    Surge - surge.sh
+
+              email: emily.c.ritter@gmail.com
+              token: *****************
+       project path: /Users/emilyritter/Documents/Projects/Programs/isabel-ritter/
+               size: 29 files, 28.2 MB
+             domain: insidious-news.surge.sh
+             upload: [====================] 100%, eta: 0.0s
+   propagate on CDN: [====================] 100% 
+               plan: Free
+              users: emily.c.ritter@gmail.com
+         IP address: 192.241.214.148
+
+    Success! Project is published and running at insidious-news.surge.sh
+
+Emilys-MacBook-Pro:isabel-ritter emilyritter$ cd ..
+Emilys-MacBook-Pro:Programs emilyritter$ pwd
+/Users/emilyritter/Documents/Projects/Programs
+Emilys-MacBook-Pro:Programs emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ ls
+Programs			font-awesome-4.5.0
+TIY				ghpages-example
+bootstrap-3.3.6-dist		test
+bootstrap-3.3.6-dist.zip
+Emilys-MacBook-Pro:Projects emilyritter$ cd TIY
+Emilys-MacBook-Pro:TIY emilyritter$ ls
+HW02			Lab2-csv-html		google-charts
+HW03-Octodex		ab2			responsive
+HW04-ruby-basics	flexbox			ruby-examples
+HW05-ruby-data		flip			scss-example
+Lab1-Tshirts		git-examples
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2
+-bash: cd: Lab2: No such file or directory
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ pwd
+/Users/emilyritter/Documents/Projects/TIY/Lab2-csv-html
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2
+-bash: cd: Lab2: No such file or directory
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Fry", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Lela", "Delivery Total"=>131295.0, "Bonus Total"=>13129.5, "Delivery Count"=>5}, {"Pilot "=>"Amy", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Bender", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Fry", 35000.0, 3500.0, 2]
+["Lela", 131295.0, 13129.5, 5]
+["Amy", 15000.0, 1500.0, 1]
+["Bender", 355600.0, 35560.0, 2]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Fry", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Lela", "Delivery Total"=>131295.0, "Bonus Total"=>13129.5, "Delivery Count"=>5}, {"Pilot "=>"Amy", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Bender", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Fry", 35000.0, 3500.0, 2]
+["Lela", 131295.0, 13129.5, 5]
+["Amy", 15000.0, 1500.0, 1]
+["Bender", 355600.0, 35560.0, 2]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ cd ..
+Emilys-MacBook-Pro:Documents emilyritter$ cd Projects/
+Emilys-MacBook-Pro:Projects emilyritter$ npm install bower
+/Users/emilyritter/Documents/Projects
+└── bower@1.7.7 
+
+npm WARN ENOENT ENOENT: no such file or directory, open '/Users/emilyritter/Documents/Projects/package.json'
+npm WARN EPACKAGEJSON Projects No description
+npm WARN EPACKAGEJSON Projects No repository field.
+npm WARN EPACKAGEJSON Projects No README data
+npm WARN EPACKAGEJSON Projects No license field.
+Emilys-MacBook-Pro:Projects emilyritter$ cd ..
+Emilys-MacBook-Pro:Documents emilyritter$ cd ..
+Emilys-MacBook-Pro:~ emilyritter$ npm install bower
+/Users/emilyritter
+└── bower@1.7.7 
+
+npm WARN ENOENT ENOENT: no such file or directory, open '/Users/emilyritter/package.json'
+npm WARN EPACKAGEJSON emilyritter No description
+npm WARN EPACKAGEJSON emilyritter No repository field.
+npm WARN EPACKAGEJSON emilyritter No README data
+npm WARN EPACKAGEJSON emilyritter No license field.
+Emilys-MacBook-Pro:~ emilyritter$ node -v
+v5.5.0
+Emilys-MacBook-Pro:~ emilyritter$ npm -
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, add-user, adduser, apihelp, author, bin, bugs, c,
+    cache, completion, config, ddp, dedupe, deprecate, dist-tag,
+    dist-tags, docs, edit, explore, faq, find, find-dupes, get,
+    help, help-search, home, i, info, init, install, issues, la,
+    link, list, ll, ln, login, logout, ls, outdated, owner,
+    pack, ping, prefix, prune, publish, r, rb, rebuild, remove,
+    repo, restart, rm, root, run-script, s, se, search, set,
+    show, shrinkwrap, star, stars, start, stop, t, tag, team,
+    test, tst, un, uninstall, unlink, unpublish, unstar, up,
+    update, upgrade, v, verison, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/emilyritter/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.3.12 /usr/local/lib/node_modules/npm
+Emilys-MacBook-Pro:~ emilyritter$ npm install -g bower
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules
+/usr/local/lib
+└── bower@1.7.7 
+
+npm ERR! Darwin 15.3.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "bower"
+npm ERR! node v5.5.0
+npm ERR! npm  v3.3.12
+npm ERR! path /usr/local/lib/node_modules
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall access
+
+npm ERR! Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'access',
+npm ERR!   path: '/usr/local/lib/node_modules' }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/emilyritter/npm-debug.log
+Emilys-MacBook-Pro:~ emilyritter$ node -help
+SSE3=1 SSE4_1=1 SAHF=1 AVX=1 FMA3=1 BMI1=1 BMI2=1 LZCNT=1 POPCNT=1 ATOM=0
+Usage:
+  shell [options] -e string
+    execute string in V8
+  shell [options] file1 file2 ... filek
+    run JavaScript scripts in file1, file2, ..., filek
+  shell [options]
+  shell [options] --shell [file1 file2 ... filek]
+    run an interactive JavaScript shell
+  d8 [options] file1 file2 ... filek
+  d8 [options]
+  d8 [options] --shell [file1 file2 ... filek]
+    run the new debugging shell
+
+Options:
+  --use_strict (enforce strict mode)
+        type: bool  default: false
+  --use_strong (enforce strong mode)
+        type: bool  default: false
+  --strong_mode (experimental strong language mode)
+        type: bool  default: false
+  --strong_this (don't allow 'this' to escape from constructors)
+        type: bool  default: true
+  --es_staging (enable all completed harmony features)
+        type: bool  default: false
+  --harmony (enable all completed harmony features)
+        type: bool  default: false
+  --harmony_shipping (enable all shipped harmony fetaures)
+        type: bool  default: true
+  --legacy_const (legacy semantics for const in sloppy mode)
+        type: bool  default: true
+  --harmony_modules (enable "harmony modules" (in progress))
+        type: bool  default: false
+  --harmony_regexps (enable "harmony regular expression extensions" (in progress))
+        type: bool  default: false
+  --harmony_proxies (enable "harmony proxies" (in progress))
+        type: bool  default: false
+  --harmony_sloppy_function (enable "harmony sloppy function block scoping" (in progress))
+        type: bool  default: false
+  --harmony_sloppy_let (enable "harmony let in sloppy mode" (in progress))
+        type: bool  default: false
+  --harmony_unicode_regexps (enable "harmony unicode regexps" (in progress))
+        type: bool  default: false
+  --harmony_reflect (enable "harmony Reflect API" (in progress))
+        type: bool  default: false
+  --harmony_destructuring (enable "harmony destructuring" (in progress))
+        type: bool  default: false
+  --harmony_default_parameters (enable "harmony default parameters" (in progress))
+        type: bool  default: false
+  --harmony_sharedarraybuffer (enable "harmony sharedarraybuffer" (in progress))
+        type: bool  default: false
+  --harmony_atomics (enable "harmony atomics" (in progress))
+        type: bool  default: false
+  --harmony_simd (enable "harmony simd" (in progress))
+        type: bool  default: false
+  --harmony_array_includes (enable "harmony Array.prototype.includes")
+        type: bool  default: false
+  --harmony_tostring (enable "harmony toString")
+        type: bool  default: false
+  --harmony_concat_spreadable (enable "harmony isConcatSpreadable")
+        type: bool  default: false
+  --harmony_rest_parameters (enable "harmony rest parameters")
+        type: bool  default: false
+  --harmony_sloppy (enable "harmony features in sloppy mode")
+        type: bool  default: false
+  --harmony_arrow_functions (enable "harmony arrow functions")
+        type: bool  default: true
+  --harmony_new_target (enable "harmony new.target")
+        type: bool  default: true
+  --harmony_object_observe (enable "harmony Object.observe")
+        type: bool  default: true
+  --harmony_spreadcalls (enable "harmony spread-calls")
+        type: bool  default: true
+  --harmony_spread_arrays (enable "harmony spread in array literals")
+        type: bool  default: true
+  --harmony_object (enable "harmony Object methods")
+        type: bool  default: true
+  --compiled_keyed_generic_loads (use optimizing compiler to generate keyed generic load stubs)
+        type: bool  default: false
+  --pretenuring_call_new (pretenure call new)
+        type: bool  default: false
+  --allocation_site_pretenuring (pretenure with allocation sites)
+        type: bool  default: true
+  --trace_pretenuring (trace pretenuring decisions of HAllocate instructions)
+        type: bool  default: false
+  --trace_pretenuring_statistics (trace allocation site pretenuring statistics)
+        type: bool  default: false
+  --track_fields (track fields with only smi values)
+        type: bool  default: true
+  --track_double_fields (track fields with double values)
+        type: bool  default: true
+  --track_heap_object_fields (track fields with heap values)
+        type: bool  default: true
+  --track_computed_fields (track computed boilerplate fields)
+        type: bool  default: true
+  --track_field_types (track field types)
+        type: bool  default: true
+  --smi_binop (support smi representation in binary operations)
+        type: bool  default: true
+  --optimize_for_size (Enables optimizations which favor memory size over execution speed)
+        type: bool  default: false
+  --unbox_double_arrays (automatically unbox arrays of doubles)
+        type: bool  default: true
+  --string_slices (use string slices)
+        type: bool  default: true
+  --ignition (use ignition interpreter)
+        type: bool  default: false
+  --ignition_filter (filter for ignition interpreter)
+        type: string  default: ~~
+  --print_bytecode (print bytecode generated by ignition interpreter)
+        type: bool  default: false
+  --trace_ignition_codegen (trace the codegen of ignition interpreter bytecode handlers)
+        type: bool  default: false
+  --crankshaft (use crankshaft)
+        type: bool  default: true
+  --hydrogen_filter (optimization filter)
+        type: string  default: *
+  --use_gvn (use hydrogen global value numbering)
+        type: bool  default: true
+  --gvn_iterations (maximum number of GVN fix-point iterations)
+        type: int  default: 3
+  --use_canonicalizing (use hydrogen instruction canonicalizing)
+        type: bool  default: true
+  --use_inlining (use function inlining)
+        type: bool  default: true
+  --use_escape_analysis (use hydrogen escape analysis)
+        type: bool  default: true
+  --use_allocation_folding (use allocation folding)
+        type: bool  default: true
+  --use_local_allocation_folding (only fold in basic blocks)
+        type: bool  default: false
+  --use_write_barrier_elimination (eliminate write barriers targeting allocations in optimized code)
+        type: bool  default: true
+  --max_inlining_levels (maximum number of inlining levels)
+        type: int  default: 5
+  --max_inlined_source_size (maximum source size in bytes considered for a single inlining)
+        type: int  default: 600
+  --max_inlined_nodes (maximum number of AST nodes considered for a single inlining)
+        type: int  default: 196
+  --max_inlined_nodes_cumulative (maximum cumulative number of AST nodes considered for inlining)
+        type: int  default: 400
+  --loop_invariant_code_motion (loop invariant code motion)
+        type: bool  default: true
+  --fast_math (faster (but maybe less accurate) math functions)
+        type: bool  default: true
+  --collect_megamorphic_maps_from_stub_cache (crankshaft harvests type feedback from stub cache)
+        type: bool  default: true
+  --hydrogen_stats (print statistics for hydrogen)
+        type: bool  default: false
+  --trace_check_elimination (trace check elimination phase)
+        type: bool  default: false
+  --trace_environment_liveness (trace liveness of local variable slots)
+        type: bool  default: false
+  --trace_hydrogen (trace generated hydrogen to file)
+        type: bool  default: false
+  --trace_hydrogen_filter (hydrogen tracing filter)
+        type: string  default: *
+  --trace_hydrogen_stubs (trace generated hydrogen for stubs)
+        type: bool  default: false
+  --trace_hydrogen_file (trace hydrogen to given file name)
+        type: string  default: NULL
+  --trace_phase (trace generated IR for specified phases)
+        type: string  default: HLZ
+  --trace_inlining (trace inlining decisions)
+        type: bool  default: false
+  --trace_load_elimination (trace load elimination)
+        type: bool  default: false
+  --trace_store_elimination (trace store elimination)
+        type: bool  default: false
+  --trace_alloc (trace register allocator)
+        type: bool  default: false
+  --trace_all_uses (trace all use positions)
+        type: bool  default: false
+  --trace_range (trace range analysis)
+        type: bool  default: false
+  --trace_gvn (trace global value numbering)
+        type: bool  default: false
+  --trace_representation (trace representation types)
+        type: bool  default: false
+  --trace_removable_simulates (trace removable simulates)
+        type: bool  default: false
+  --trace_escape_analysis (trace hydrogen escape analysis)
+        type: bool  default: false
+  --trace_allocation_folding (trace allocation folding)
+        type: bool  default: false
+  --trace_track_allocation_sites (trace the tracking of allocation sites)
+        type: bool  default: false
+  --trace_migration (trace object migration)
+        type: bool  default: false
+  --trace_generalization (trace map generalization)
+        type: bool  default: false
+  --stress_pointer_maps (pointer map for every instruction)
+        type: bool  default: false
+  --stress_environments (environment for every instruction)
+        type: bool  default: false
+  --deopt_every_n_times (deoptimize every n times a deopt point is passed)
+        type: int  default: 0
+  --deopt_every_n_garbage_collections (deoptimize every n garbage collections)
+        type: int  default: 0
+  --print_deopt_stress (print number of possible deopt points)
+        type: bool  default: false
+  --trap_on_deopt (put a break point before deoptimizing)
+        type: bool  default: false
+  --trap_on_stub_deopt (put a break point before deoptimizing a stub)
+        type: bool  default: false
+  --deoptimize_uncommon_cases (deoptimize uncommon cases)
+        type: bool  default: true
+  --polymorphic_inlining (polymorphic inlining)
+        type: bool  default: true
+  --use_osr (use on-stack replacement)
+        type: bool  default: true
+  --array_bounds_checks_elimination (perform array bounds checks elimination)
+        type: bool  default: true
+  --trace_bce (trace array bounds check elimination)
+        type: bool  default: false
+  --array_bounds_checks_hoisting (perform array bounds checks hoisting)
+        type: bool  default: false
+  --array_index_dehoisting (perform array index dehoisting)
+        type: bool  default: true
+  --analyze_environment_liveness (analyze liveness of environment slots and zap dead values)
+        type: bool  default: true
+  --load_elimination (use load elimination)
+        type: bool  default: true
+  --check_elimination (use check elimination)
+        type: bool  default: true
+  --store_elimination (use store elimination)
+        type: bool  default: false
+  --dead_code_elimination (use dead code elimination)
+        type: bool  default: true
+  --fold_constants (use constant folding)
+        type: bool  default: true
+  --trace_dead_code_elimination (trace dead code elimination)
+        type: bool  default: false
+  --unreachable_code_elimination (eliminate unreachable code)
+        type: bool  default: true
+  --trace_osr (trace on-stack replacement)
+        type: bool  default: false
+  --stress_runs (number of stress runs)
+        type: int  default: 0
+  --lookup_sample_by_shared (when picking a function to optimize, watch for shared function info, not JSFunction itself)
+        type: bool  default: true
+  --cache_optimized_code (cache optimized code for closures)
+        type: bool  default: true
+  --flush_optimized_code_cache (flushes the cache of optimized code for closures on every GC)
+        type: bool  default: true
+  --inline_construct (inline constructor calls)
+        type: bool  default: true
+  --inline_arguments (inline functions with arguments object)
+        type: bool  default: true
+  --inline_accessors (inline JavaScript accessors)
+        type: bool  default: true
+  --escape_analysis_iterations (maximum number of escape analysis fix-point iterations)
+        type: int  default: 2
+  --optimize_for_in (optimize functions containing for-in loops)
+        type: bool  default: true
+  --concurrent_recompilation (optimizing hot functions asynchronously on a separate thread)
+        type: bool  default: true
+  --trace_concurrent_recompilation (track concurrent recompilation)
+        type: bool  default: false
+  --concurrent_recompilation_queue_length (the length of the concurrent compilation queue)
+        type: int  default: 8
+  --concurrent_recompilation_delay (artificial compilation delay in ms)
+        type: int  default: 0
+  --block_concurrent_recompilation (block queued jobs until released)
+        type: bool  default: false
+  --concurrent_osr (concurrent on-stack replacement)
+        type: bool  default: true
+  --omit_map_checks_for_leaf_maps (do not emit check maps for constant values that have a leaf map, deoptimize the optimized code if the layout of the maps changes.)
+        type: bool  default: true
+  --turbo (enable TurboFan compiler)
+        type: bool  default: false
+  --turbo_shipping (enable TurboFan compiler on subset)
+        type: bool  default: true
+  --turbo_greedy_regalloc (use the greedy register allocator)
+        type: bool  default: false
+  --turbo_preprocess_ranges (run pre-register allocation heuristics)
+        type: bool  default: false
+  --turbo_filter (optimization filter for TurboFan compiler)
+        type: string  default: ~~
+  --trace_turbo (trace generated TurboFan IR)
+        type: bool  default: false
+  --trace_turbo_graph (trace generated TurboFan graphs)
+        type: bool  default: false
+  --trace_turbo_cfg_file (trace turbo cfg graph (for C1 visualizer) to a given file name)
+        type: string  default: NULL
+  --trace_turbo_types (trace TurboFan's types)
+        type: bool  default: true
+  --trace_turbo_scheduler (trace TurboFan's scheduler)
+        type: bool  default: false
+  --trace_turbo_reduction (trace TurboFan's various reducers)
+        type: bool  default: false
+  --trace_turbo_jt (trace TurboFan's jump threading)
+        type: bool  default: false
+  --trace_turbo_ceq (trace TurboFan's control equivalence)
+        type: bool  default: false
+  --turbo_asm (enable TurboFan for asm.js code)
+        type: bool  default: true
+  --turbo_asm_deoptimization (enable deoptimization in TurboFan for asm.js code)
+        type: bool  default: false
+  --turbo_verify (verify TurboFan graphs at each phase)
+        type: bool  default: false
+  --turbo_stats (print TurboFan statistics)
+        type: bool  default: false
+  --turbo_splitting (split nodes during scheduling in TurboFan)
+        type: bool  default: true
+  --turbo_types (use typed lowering in TurboFan)
+        type: bool  default: true
+  --turbo_type_feedback (use type feedback in TurboFan)
+        type: bool  default: false
+  --turbo_allocate (enable inline allocations in TurboFan)
+        type: bool  default: false
+  --turbo_source_positions (track source code positions when building TurboFan IR)
+        type: bool  default: false
+  --context_specialization (enable context specialization in TurboFan)
+        type: bool  default: false
+  --turbo_inlining (enable inlining in TurboFan)
+        type: bool  default: false
+  --trace_turbo_inlining (trace TurboFan inlining)
+        type: bool  default: false
+  --loop_assignment_analysis (perform loop assignment analysis)
+        type: bool  default: true
+  --turbo_profiling (enable profiling in TurboFan)
+        type: bool  default: false
+  --turbo_verify_allocation (verify register allocation in TurboFan)
+        type: bool  default: false
+  --turbo_move_optimization (optimize gap moves in TurboFan)
+        type: bool  default: true
+  --turbo_jt (enable jump threading in TurboFan)
+        type: bool  default: true
+  --turbo_osr (enable OSR in TurboFan)
+        type: bool  default: true
+  --turbo_try_catch (enable try-catch support in TurboFan)
+        type: bool  default: true
+  --turbo_try_finally (enable try-finally support in TurboFan)
+        type: bool  default: false
+  --turbo_stress_loop_peeling (stress loop peeling optimization)
+        type: bool  default: false
+  --turbo_cf_optimization (optimize control flow in TurboFan)
+        type: bool  default: true
+  --turbo_frame_elision (elide frames in TurboFan)
+        type: bool  default: true
+  --turbo_cache_shared_code (cache context-independent code)
+        type: bool  default: true
+  --turbo_preserve_shared_code (keep context-independent code)
+        type: bool  default: false
+  --typed_array_max_size_in_heap (threshold for in-heap typed array)
+        type: int  default: 64
+  --frame_count (number of stack frames inspected by the profiler)
+        type: int  default: 1
+  --interrupt_budget (execution budget before interrupt is triggered)
+        type: int  default: 6144
+  --type_info_threshold (percentage of ICs that must have type info to allow optimization)
+        type: int  default: 25
+  --generic_ic_threshold (max percentage of megamorphic/generic ICs to allow optimization)
+        type: int  default: 30
+  --self_opt_count (call count before self-optimization)
+        type: int  default: 130
+  --trace_opt_verbose (extra verbose compilation tracing)
+        type: bool  default: false
+  --debug_code (generate extra code (assertions) for debugging)
+        type: bool  default: false
+  --code_comments (emit comments in code disassembly)
+        type: bool  default: false
+  --enable_sse3 (enable use of SSE3 instructions if available)
+        type: bool  default: true
+  --enable_sse4_1 (enable use of SSE4.1 instructions if available)
+        type: bool  default: true
+  --enable_sahf (enable use of SAHF instruction if available (X64 only))
+        type: bool  default: true
+  --enable_avx (enable use of AVX instructions if available)
+        type: bool  default: true
+  --enable_fma3 (enable use of FMA3 instructions if available)
+        type: bool  default: true
+  --enable_bmi1 (enable use of BMI1 instructions if available)
+        type: bool  default: true
+  --enable_bmi2 (enable use of BMI2 instructions if available)
+        type: bool  default: true
+  --enable_lzcnt (enable use of LZCNT instruction if available)
+        type: bool  default: true
+  --enable_popcnt (enable use of POPCNT instruction if available)
+        type: bool  default: true
+  --enable_vfp3 (enable use of VFP3 instructions if available)
+        type: bool  default: true
+  --enable_armv7 (enable use of ARMv7 instructions if available (ARM only))
+        type: bool  default: true
+  --enable_armv8 (enable use of ARMv8 instructions if available (ARM 32-bit only))
+        type: bool  default: true
+  --enable_neon (enable use of NEON instructions if available (ARM only))
+        type: bool  default: true
+  --enable_sudiv (enable use of SDIV and UDIV instructions if available (ARM only))
+        type: bool  default: true
+  --enable_mls (enable use of MLS instructions if available (ARM only))
+        type: bool  default: true
+  --enable_movw_movt (enable loading 32-bit constant by means of movw/movt instruction pairs (ARM only))
+        type: bool  default: false
+  --enable_unaligned_accesses (enable unaligned accesses for ARMv7 (ARM only))
+        type: bool  default: true
+  --enable_32dregs (enable use of d16-d31 registers on ARM - this requires VFP3)
+        type: bool  default: true
+  --enable_vldr_imm (enable use of constant pools for double immediate (ARM only))
+        type: bool  default: false
+  --force_long_branches (force all emitted branches to be in long mode (MIPS/PPC only))
+        type: bool  default: false
+  --mcpu (enable optimization for specific cpu)
+        type: string  default: auto
+  --expose_natives_as (expose natives in global object)
+        type: string  default: NULL
+  --expose_debug_as (expose debug in global object)
+        type: string  default: NULL
+  --expose_free_buffer (expose freeBuffer extension)
+        type: bool  default: false
+  --expose_gc (expose gc extension)
+        type: bool  default: false
+  --expose_gc_as (expose gc extension under the specified name)
+        type: string  default: NULL
+  --expose_externalize_string (expose externalize string extension)
+        type: bool  default: false
+  --expose_trigger_failure (expose trigger-failure extension)
+        type: bool  default: false
+  --stack_trace_limit (number of stack frames to capture)
+        type: int  default: 10
+  --builtins_in_stack_traces (show built-in functions in stack traces)
+        type: bool  default: false
+  --disable_native_files (disable builtin natives files)
+        type: bool  default: false
+  --inline_new (use fast inline allocation)
+        type: bool  default: true
+  --trace_codegen (print name of functions for which code is generated)
+        type: bool  default: false
+  --trace (trace function calls)
+        type: bool  default: false
+  --mask_constants_with_cookie (use random jit cookie to mask large constants)
+        type: bool  default: true
+  --lazy (use lazy compilation)
+        type: bool  default: true
+  --trace_opt (trace lazy optimization)
+        type: bool  default: false
+  --trace_opt_stats (trace lazy optimization statistics)
+        type: bool  default: false
+  --opt (use adaptive optimizations)
+        type: bool  default: true
+  --always_opt (always try to optimize functions)
+        type: bool  default: false
+  --always_osr (always try to OSR functions)
+        type: bool  default: false
+  --prepare_always_opt (prepare for turning on always opt)
+        type: bool  default: false
+  --trace_deopt (trace optimize function deoptimization)
+        type: bool  default: false
+  --trace_stub_failures (trace deoptimization of generated code stubs)
+        type: bool  default: false
+  --serialize_toplevel (enable caching of toplevel scripts)
+        type: bool  default: true
+  --serialize_inner (enable caching of inner functions)
+        type: bool  default: true
+  --trace_serializer (print code serializer trace)
+        type: bool  default: false
+  --min_preparse_length (minimum length for automatic enable preparsing)
+        type: int  default: 1024
+  --max_opt_count (maximum number of optimization attempts before giving up.)
+        type: int  default: 10
+  --compilation_cache (enable compilation cache)
+        type: bool  default: true
+  --cache_prototype_transitions (cache prototype transitions)
+        type: bool  default: true
+  --cpu_profiler_sampling_interval (CPU profiler sampling interval in microseconds)
+        type: int  default: 1000
+  --trace_debug_json (trace debugging JSON request/response)
+        type: bool  default: false
+  --trace_js_array_abuse (trace out-of-bounds accesses to JS arrays)
+        type: bool  default: false
+  --trace_external_array_abuse (trace out-of-bounds-accesses to external arrays)
+        type: bool  default: false
+  --trace_array_abuse (trace out-of-bounds accesses to all arrays)
+        type: bool  default: false
+  --enable_liveedit (enable liveedit experimental feature)
+        type: bool  default: true
+  --hard_abort (abort by crashing)
+        type: bool  default: true
+  --stack_size (default size of stack region v8 is allowed to use (in kBytes))
+        type: int  default: 984
+  --max_stack_trace_source_length (maximum length of function source code printed in a stack trace.)
+        type: int  default: 300
+  --always_inline_smi_code (always inline smi code in non-opt code)
+        type: bool  default: false
+  --min_semi_space_size (min size of a semi-space (in MBytes), the new space consists of twosemi-spaces)
+        type: int  default: 0
+  --target_semi_space_size (target size of a semi-space (in MBytes) before triggering a GC)
+        type: int  default: 0
+  --max_semi_space_size (max size of a semi-space (in MBytes), the new space consists of twosemi-spaces)
+        type: int  default: 0
+  --semi_space_growth_factor (factor by which to grow the new space)
+        type: int  default: 2
+  --experimental_new_space_growth_heuristic (Grow the new space based on the percentage of survivors instead of their absolute value.)
+        type: bool  default: false
+  --max_old_space_size (max size of the old space (in Mbytes))
+        type: int  default: 0
+  --initial_old_space_size (initial old space size (in Mbytes))
+        type: int  default: 0
+  --max_executable_size (max size of executable memory (in Mbytes))
+        type: int  default: 0
+  --gc_global (always perform global GCs)
+        type: bool  default: false
+  --gc_interval (garbage collect after <n> allocations)
+        type: int  default: -1
+  --retain_maps_for_n_gc (keeps maps alive for <n> old space garbage collections)
+        type: int  default: 2
+  --trace_gc (print one trace line following each garbage collection)
+        type: bool  default: false
+  --trace_gc_nvp (print one detailed trace line in name=value format after each garbage collection)
+        type: bool  default: false
+  --trace_gc_ignore_scavenger (do not print trace line after scavenger collection)
+        type: bool  default: false
+  --trace_idle_notification (print one trace line following each idle notification)
+        type: bool  default: false
+  --trace_idle_notification_verbose (prints the heap state used by the idle notification)
+        type: bool  default: false
+  --print_cumulative_gc_stat (print cumulative GC statistics in name=value format on exit)
+        type: bool  default: false
+  --print_max_heap_committed (print statistics of the maximum memory committed for the heap in name=value format on exit)
+        type: bool  default: false
+  --trace_gc_verbose (print more details following each garbage collection)
+        type: bool  default: false
+  --trace_allocation_stack_interval (print stack trace after <n> free-list allocations)
+        type: int  default: -1
+  --trace_fragmentation (report fragmentation for old space)
+        type: bool  default: false
+  --trace_fragmentation_verbose (report fragmentation for old space (detailed))
+        type: bool  default: false
+  --trace_mutator_utilization (print mutator utilization, allocation speed, gc speed)
+        type: bool  default: false
+  --weak_embedded_maps_in_optimized_code (make maps embedded in optimized code weak)
+        type: bool  default: true
+  --weak_embedded_objects_in_optimized_code (make objects embedded in optimized code weak)
+        type: bool  default: true
+  --flush_code (flush code that we expect not to use again)
+        type: bool  default: true
+  --trace_code_flushing (trace code flushing progress)
+        type: bool  default: false
+  --age_code (track un-executed functions to age code and flush only old code (required for code flushing))
+        type: bool  default: true
+  --incremental_marking (use incremental marking)
+        type: bool  default: true
+  --overapproximate_weak_closure (overapproximate weak closer to reduce atomic pause time)
+        type: bool  default: true
+  --min_progress_during_object_groups_marking (keep overapproximating the weak closure as long as we discover at least this many unmarked objects)
+        type: int  default: 128
+  --max_object_groups_marking_rounds (at most try this many times to over approximate the weak closure)
+        type: int  default: 3
+  --concurrent_sweeping (use concurrent sweeping)
+        type: bool  default: true
+  --trace_incremental_marking (trace progress of the incremental marking)
+        type: bool  default: false
+  --track_gc_object_stats (track object counts and memory usage)
+        type: bool  default: false
+  --trace_gc_object_stats (trace object counts and memory usage)
+        type: bool  default: false
+  --track_detached_contexts (track native contexts that are expected to be garbage collected)
+        type: bool  default: true
+  --trace_detached_contexts (trace native contexts that are expected to be garbage collected)
+        type: bool  default: false
+  --histogram_interval (time interval in ms for aggregating memory histograms)
+        type: int  default: 600000
+  --heap_profiler_trace_objects (Dump heap object allocations/movements/size_updates)
+        type: bool  default: false
+  --use_idle_notification (Use idle notification to reduce memory footprint.)
+        type: bool  default: true
+  --use_ic (use inline caching)
+        type: bool  default: true
+  --trace_ic (trace inline cache state transitions)
+        type: bool  default: false
+  --vector_stores (use vectors for store ics)
+        type: bool  default: false
+  --global_var_shortcuts (use ic-less global loads and stores)
+        type: bool  default: false
+  --native_code_counters (generate extra code for manipulating stats counters)
+        type: bool  default: false
+  --always_compact (Perform compaction on every full GC)
+        type: bool  default: false
+  --never_compact (Never perform compaction on full GC - testing only)
+        type: bool  default: false
+  --compact_code_space (Compact code space on full collections)
+        type: bool  default: true
+  --cleanup_code_caches_at_gc (Flush inline caches prior to mark compact collection and flush code caches in maps during mark compact cycle.)
+        type: bool  default: true
+  --use_marking_progress_bar (Use a progress bar to scan large objects in increments when incremental marking is active.)
+        type: bool  default: true
+  --zap_code_space (Zap free memory in code space with 0xCC while sweeping.)
+        type: bool  default: false
+  --random_seed (Default seed for initializing random generator (0, the default, means to use system random).)
+        type: int  default: 0
+  --trace_weak_arrays (Trace WeakFixedArray usage)
+        type: bool  default: false
+  --track_prototype_users (Keep track of which maps refer to a given prototype object)
+        type: bool  default: false
+  --trace_prototype_users (Trace updates to prototype user tracking)
+        type: bool  default: false
+  --eliminate_prototype_chain_checks (Collapse prototype chain checks into single-cell checks)
+        type: bool  default: true
+  --use_verbose_printer (allows verbose printing)
+        type: bool  default: true
+  --allow_natives_syntax (allow natives syntax)
+        type: bool  default: false
+  --trace_parse (trace parsing and preparsing)
+        type: bool  default: false
+  --trace_sim (Trace simulator execution)
+        type: bool  default: false
+  --debug_sim (Enable debugging the simulator)
+        type: bool  default: false
+  --check_icache (Check icache flushes in ARM and MIPS simulator)
+        type: bool  default: false
+  --stop_sim_at (Simulator stop after x number of instructions)
+        type: int  default: 0
+  --sim_stack_alignment (Stack alingment in bytes in simulator (4 or 8, 8 is default))
+        type: int  default: 8
+  --sim_stack_size (Stack size of the ARM64, MIPS64 and PPC64 simulator in kBytes (default is 2 MB))
+        type: int  default: 2048
+  --log_regs_modified (When logging register values, only print modified registers.)
+        type: bool  default: true
+  --log_colour (When logging, try to use coloured output.)
+        type: bool  default: true
+  --ignore_asm_unimplemented_break (Don't break for ASM_UNIMPLEMENTED_BREAK macros.)
+        type: bool  default: false
+  --trace_sim_messages (Trace simulator debug messages. Implied by --trace-sim.)
+        type: bool  default: false
+  --stack_trace_on_illegal (print stack trace when an illegal exception is thrown)
+        type: bool  default: false
+  --abort_on_uncaught_exception (abort program (dump core) when an uncaught exception is thrown)
+        type: bool  default: false
+  --randomize_hashes (randomize hashes to avoid predictable hash collisions (with snapshots this option cannot override the baked-in seed))
+        type: bool  default: true
+  --hash_seed (Fixed seed to use to hash property keys (0 means random)(with snapshots this option cannot override the baked-in seed))
+        type: int  default: 0
+  --profile_deserialization (Print the time it takes to deserialize the snapshot.)
+        type: bool  default: false
+  --serialization_statistics (Collect statistics on serialized objects.)
+        type: bool  default: false
+  --regexp_optimization (generate optimized regexp code)
+        type: bool  default: true
+  --testing_bool_flag (testing_bool_flag)
+        type: bool  default: true
+  --testing_maybe_bool_flag (testing_maybe_bool_flag)
+        type: maybe_bool  default: unset
+  --testing_int_flag (testing_int_flag)
+        type: int  default: 13
+  --testing_float_flag (float-flag)
+        type: float  default: 2.5
+  --testing_string_flag (string-flag)
+        type: string  default: Hello, world!
+  --testing_prng_seed (Seed used for threading test randomness)
+        type: int  default: 42
+  --testing_serialization_file (file in which to serialize heap)
+        type: string  default: /tmp/serdes
+  --startup_blob (Write V8 startup blob file. (mksnapshot only))
+        type: string  default: NULL
+  --profile_hydrogen_code_stub_compilation (Print the time it takes to lazily compile hydrogen code stubs.)
+        type: bool  default: false
+  --predictable (enable predictable mode)
+        type: bool  default: false
+  --force_marking_deque_overflows (force overflows of marking deque by reducing it's size to 64 words)
+        type: bool  default: false
+  --stress_compaction (stress the GC compactor to flush out bugs (implies --force_marking_deque_overflows))
+        type: bool  default: false
+  --manual_evacuation_candidates_selection (Test mode only flag. It allows an unit test to select evacuation candidates pages (requires --stress_compaction).)
+        type: bool  default: false
+  --external_allocation_limit_incremental_time (Time spent in incremental marking steps (in ms) once the external allocation limit is reached)
+        type: int  default: 1
+  --help (Print usage message, including flags, on console)
+        type: bool  default: true
+  --dump_counters (Dump counters on exit)
+        type: bool  default: false
+  --map_counters (Map counters to a file)
+        type: string  default: 
+  --js_arguments (Pass all remaining arguments to the script. Alias for "--".)
+        type: arguments  default: 
+  --log (Minimal logging (no API, code, GC, suspect, or handles samples).)
+        type: bool  default: false
+  --log_all (Log all events to the log file.)
+        type: bool  default: false
+  --log_api (Log API events to the log file.)
+        type: bool  default: false
+  --log_code (Log code events to the log file without profiling.)
+        type: bool  default: false
+  --log_gc (Log heap samples on garbage collection for the hp2ps tool.)
+        type: bool  default: false
+  --log_handles (Log global handle events.)
+        type: bool  default: false
+  --log_snapshot_positions (log positions of (de)serialized objects in the snapshot.)
+        type: bool  default: false
+  --log_suspect (Log suspect operations.)
+        type: bool  default: false
+  --prof (Log statistical profiling information (implies --log-code).)
+        type: bool  default: false
+  --prof_cpp (Like --prof, but ignore generated code.)
+        type: bool  default: false
+  --prof_browser_mode (Used with --prof, turns on browser-compatible mode for profiling.)
+        type: bool  default: true
+  --log_regexp (Log regular expression execution.)
+        type: bool  default: false
+  --logfile (Specify the name of the log file.)
+        type: string  default: v8.log
+  --logfile_per_isolate (Separate log files for each isolate.)
+        type: bool  default: true
+  --ll_prof (Enable low-level linux profiler.)
+        type: bool  default: false
+  --perf_basic_prof (Enable perf linux profiler (basic support).)
+        type: bool  default: false
+  --perf_basic_prof_only_functions (Only report function code ranges to perf (i.e. no stubs).)
+        type: bool  default: false
+  --gc_fake_mmap (Specify the name of the file for fake gc mmap used in ll_prof)
+        type: string  default: /tmp/__v8_gc__
+  --log_internal_timer_events (Time internal events.)
+        type: bool  default: false
+  --log_timer_events (Time events including external callbacks.)
+        type: bool  default: false
+  --log_instruction_stats (Log AArch64 instruction statistics.)
+        type: bool  default: false
+  --log_instruction_file (AArch64 instruction statistics log file.)
+        type: string  default: arm64_inst.csv
+  --log_instruction_period (AArch64 instruction statistics logging period.)
+        type: int  default: 4194304
+  --redirect_code_traces (output deopt information and disassembly into file code-<pid>-<isolate id>.asm)
+        type: bool  default: false
+  --redirect_code_traces_to (output deopt information and disassembly into the given file)
+        type: string  default: NULL
+  --hydrogen_track_positions (track source code positions when building IR)
+        type: bool  default: false
+  --trace_elements_transitions (trace elements transitions)
+        type: bool  default: false
+  --trace_creation_allocation_sites (trace the creation of allocation sites)
+        type: bool  default: false
+  --print_code_stubs (print code stubs)
+        type: bool  default: false
+  --test_secondary_stub_cache (test secondary stub cache by disabling the primary one)
+        type: bool  default: false
+  --test_primary_stub_cache (test primary stub cache by disabling the secondary one)
+        type: bool  default: false
+  --print_code (print generated code)
+        type: bool  default: false
+  --print_opt_code (print optimized code)
+        type: bool  default: false
+  --print_unopt_code (print unoptimized code before printing optimized code based on it)
+        type: bool  default: false
+  --print_code_verbose (print more information for code)
+        type: bool  default: false
+  --print_builtin_code (print generated code for builtins)
+        type: bool  default: false
+  --sodium (print generated code output suitable for use with the Sodium code viewer)
+        type: bool  default: false
+  --print_all_code (enable all flags related to printing code)
+        type: bool  default: false
+Emilys-MacBook-Pro:~ emilyritter$ json -v
+-bash: json: command not found
+Emilys-MacBook-Pro:~ emilyritter$ bower -v
+-bash: bower: command not found
+Emilys-MacBook-Pro:~ emilyritter$ bower
+-bash: bower: command not found
+Emilys-MacBook-Pro:~ emilyritter$ ruby data_parser.rb
+ruby: No such file or directory -- data_parser.rb (LoadError)
+Emilys-MacBook-Pro:~ emilyritter$ cd Documents/Projects/
+Emilys-MacBook-Pro:Projects emilyritter$ ls
+Chart.js-master			bootstrap-3.3.6-dist.zip
+Chart.js-master.zip		font-awesome-4.5.0
+Programs			ghpages-example
+TIY				node_modules
+bootstrap-3.3.6-dist		test
+Emilys-MacBook-Pro:Projects emilyritter$ cd TI
+-bash: cd: TI: No such file or directory
+Emilys-MacBook-Pro:Projects emilyritter$ cd TIY/
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab
+Lab1-Tshirts/  Lab2-csv-html/ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+(erb):65:in `<main>': undefined local variable or method `employee_pie' for main:Object (NameError)
+	from /Users/emilyritter/.rubies/ruby-2.3.0/lib/ruby/2.3.0/erb.rb:864:in `eval'
+	from /Users/emilyritter/.rubies/ruby-2.3.0/lib/ruby/2.3.0/erb.rb:864:in `result'
+	from data_parser.rb:152:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+>>> Change detected to: Lab2-csv-html/styles.scss
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ irb
+irb(main):001:0> # Example input: percent_to_hex(25, "abcdef", "ffffff") => "c0daf3"
+irb(main):002:0* def percent_to_hex(percent, start, stop)
+irb(main):003:1>   colors = [start,stop].map do |c|
+irb(main):004:2*     c.scan(/../).map { |s| s.to_i(16) }
+irb(main):005:2>   end
+irb(main):006:1> 
+irb(main):007:1*   colors_int = colors.transpose.map do |x,y|
+irb(main):008:2*     (x + percent * 100 * (y - x)).round
+irb(main):009:2>   end
+irb(main):010:1> 
+irb(main):011:1*   colors_int.map { |i| i.to_s(16) }.join("")
+irb(main):012:1> end
+=> :percent_to_hex
+irb(main):013:0> percent_to_hex(50, #666666, #ffffff)
+irb(main):014:1* puts percent_to_hex(50, #666666, #ffffff)
+irb(main):015:2* puts percent_to_hex(50, #666666, #ffffff)
+irb(main):016:3* ext
+irb(main):017:3> exit
+irb(main):018:3> exit
+irb(main):019:3> ^C
+irb(main):019:0> exit
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ cd test/
+Emilys-MacBook-Pro:test emilyritter$ ruby test-hex-gradient.rb
+ruby: No such file or directory -- test-hex-gradient.rb (LoadError)
+Emilys-MacBook-Pro:test emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ cd junk/
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0129dab530db
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:14: unterminated string meets end of file
+test-hex-gradient.rb:14: syntax error, unexpected end-of-input, expecting ')'
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:18: unknown regexp option - g
+test-hex-gradient.rb:25: syntax error, unexpected ')'
+test-hex-gradient.rb:29: syntax error, unexpected keyword_end, expecting ')'
+test-hex-gradient.rb:32: syntax error, unexpected keyword_end, expecting ')'
+test-hex-gradient.rb:34: syntax error, unexpected end-of-input, expecting ')'
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:25: syntax error, unexpected ')'
+test-hex-gradient.rb:29: syntax error, unexpected keyword_end, expecting ')'
+test-hex-gradient.rb:32: syntax error, unexpected keyword_end, expecting ')'
+test-hex-gradient.rb:34: syntax error, unexpected end-of-input, expecting ')'
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+test-hex-gradient.rb:18:in `replace': wrong number of arguments (given 2, expected 1) (ArgumentError)
+	from test-hex-gradient.rb:18:in `ColorLuminance'
+	from test-hex-gradient.rb:34:in `<main>'
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+#e0ffff
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+#60BBB2
+#305e59
+#e0ffff
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+#60BBB2
+#305e59
+#b0ded9
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:41: syntax error, unexpected '}', expecting =>
+ary = [{1}, {2}, {4}]
+          ^
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:41: syntax error, unexpected ',', expecting =>
+ary = [{1, 2}, {2, 5}, {4, 6}]
+          ^
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+#60BBB2
+#305e59
+#b0ded9
+0.3333333333333333
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+0-d6cd-e439d
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:32: syntax error, unexpected ':', expecting end-of-input
+theme_color: '#60BBB2'
+            ^
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:44: syntax error, unexpected ',', expecting ')'
+puts ary_to_hex_ary (theme_color, ary)
+                                 ^
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+[]
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+[]
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+test-hex-gradient.rb:57: syntax error, unexpected ')', expecting '}'
+test-hex-gradient.rb:61: syntax error, unexpected end-of-input, expecting keyword_end
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+#60BBB2
+#305e59
+#b0ded9
+0.33
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2, :color=>"#84b2ad"}
+{:a=>2, :b=>5, :color=>"#d8ffff"}
+{:a=>4, :b=>6, :color=>"#ffffff"}
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+test-hex-gradient.rb:62:in `<main>': undefined local variable or method `ary_new' for main:Object (NameError)
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2}
+{:a=>1, :b=>2, :color=>"#84b2ad"}
+{:a=>2, :b=>5}
+{:a=>2, :b=>5, :color=>"#d8ffff"}
+{:a=>4, :b=>6}
+{:a=>4, :b=>6, :color=>"#ffffff"}
+{:a=>1, :b=>2}
+{:a=>2, :b=>5}
+{:a=>4, :b=>6}
+Emilys-MacBook-Pro:junk emilyritter$ ruby test-hex-gradient.rb
+{:a=>1, :b=>2, :color=>"#84b2ad"}
+{:a=>2, :b=>5, :color=>"#d8ffff"}
+{:a=>4, :b=>6, :color=>"#ffffff"}
+Emilys-MacBook-Pro:junk emilyritter$ cd ..
+Emilys-MacBook-Pro:Projects emilyritter$ cd Ti
+-bash: cd: Ti: No such file or directory
+Emilys-MacBook-Pro:Projects emilyritter$ cd TIY/
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data-parser.rb
+ruby: No such file or directory -- data-parser.rb (LoadError)
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:11:in `parse_data': wrong number of arguments (given 1, expected 2) (ArgumentError)
+	from data_parser.rb:45:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:9:in `add_ary': undefined method `parse_data_cont' for main:Object (NoMethodError)
+Did you mean?  parse_data
+	from data_parser.rb:12:in `parse_data'
+	from data_parser.rb:45:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:9: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+data_parser.rb:161: syntax error, unexpected end-of-input, expecting keyword_end
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Planet
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Destination
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Destination 
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+Destination 
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+Destination
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+Destination
+Delivery Count
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+
+35000.0
+
+44500.0
+
+15000.0
+
+355600.0
+
+3451.0
+
+2344.0
+
+1000.0
+
+80000.0
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Pilot "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Pilot "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Pilot "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Pilot "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Pilot "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Pilot "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Pilot "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Pilot "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[[nil, 35000.0], [nil, 44500.0], [nil, 15000.0], [nil, 355600.0], [nil, 3451.0], [nil, 2344.0], [nil, 1000.0], [nil, 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[[nil, 35000.0], [nil, 44500.0], [nil, 15000.0], [nil, 355600.0], [nil, 3451.0], [nil, 2344.0], [nil, 1000.0], [nil, 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ 
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Pilot
+Delivery Count
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Destination", "Delivery Count"], ["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+ç
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ cd ..
+Emilys-MacBook-Pro:TIY emilyritter$ sass --watch Lab2-csv-html/
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write Lab2-csv-html/styles.css
+      write Lab2-csv-html/styles.css.map
+[Listen warning]:
+  Listen will be polling for changes. Learn more at https://github.com/guard/listen#polling-fallback.
+^CEmilys-MacBook-Pro:TIY emilyritter$ 
+Emilys-MacBook-Pro:TIY emilyritter$ cd Lab2-csv-html/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:57: syntax error, unexpected ':', expecting '}'
+	ary_of_hsh.map {|hsh| value: ary_of_hsh["hsh_key"].value}
+	                            ^
+data_parser.rb:59: syntax error, unexpected ':', expecting '}'
+	ary_of_hsh.map {|hsh| label: ary_of_hsh["label"].key}
+	                            ^
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:57: syntax error, unexpected ':', expecting '}'
+	ary_of_hsh.map {|hsh| value: ary_of_hsh[hsh_key].value}
+	                            ^
+data_parser.rb:59: syntax error, unexpected ':', expecting '}'
+	ary_of_hsh.map {|hsh| label: ary_of_hsh[label].key}
+	                            ^
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:59: syntax error, unexpected ':', expecting '}'
+	ary_of_hsh.map {|hsh| label: ary_of_hsh[label].key}
+	                            ^
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `block in pie_chart_prep': undefined local variable or method `value' for main:Object (NameError)
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `block in pie_chart_prep': undefined local variable or method `value' for main:Object (NameError)
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `block in pie_chart_prep': undefined local variable or method `value' for main:Object (NameError)
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `block in pie_chart_prep': undefined local variable or method `value' for main:Object (NameError)
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:57: syntax error, unexpected ']'
+	ary_of_hsh.map {|hsh| hsh[value:] = ary_of_hsh[hsh_key].values}
+	                                 ^
+data_parser.rb:59: syntax error, unexpected ']'
+	ary_of_hsh.map {|hsh| hsh[label:] = ary_of_hsh[label].keys}
+	                                 ^
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:56:in `pie_chart_prep': wrong number of arguments (given 3, expected 4) (ArgumentError)
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:156:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:158:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:158:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Delivery Total
+data_parser.rb:58:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:58:in `block in pie_chart_prep'
+	from data_parser.rb:58:in `map'
+	from data_parser.rb:58:in `pie_chart_prep'
+	from data_parser.rb:158:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Delivery Total
+data_parser.rb:58:in `pie_chart_prep': undefined local variable or method `hsh' for main:Object (NameError)
+Did you mean?  hash
+               hsh_values
+               Hash
+	from data_parser.rb:159:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+Delivery Total
+data_parser.rb:58:in `block in pie_chart_prep': undefined local variable or method `hsh' for main:Object (NameError)
+Did you mean?  hash
+               hsh_values
+               Hash
+	from data_parser.rb:58:in `each'
+	from data_parser.rb:58:in `pie_chart_prep'
+	from data_parser.rb:159:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+data_parser.rb:57: syntax error, unexpected ']', expecting tSTRING_DEND
+	new_ary = ary_of_hsh.map {|hsh| hsh["#{hsh_values]}"}
+	                                                  ^
+data_parser.rb:61: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+data_parser.rb:70: syntax error, unexpected tSTRING_DEND, expecting '}'
+total_rev = (records.map {|records| records["Money"].to_f}).reduce(:+)
+                                                          ^
+data_parser.rb:74: syntax error, unexpected tSTRING_DEND, expecting '}'
+...ecords| records["Crates"].to_i}).reduce(:+)
+...                               ^
+data_parser.rb:77: syntax error, unexpected tSTRING_DEND, expecting '}'
+...records| records["Bonus"].to_f}).reduce(:+)
+...                               ^
+data_parser.rb:83: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:85: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:87: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:90: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:91: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:95: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:96: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:100: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:101: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:104: syntax error, unexpected keyword_end, expecting '}'
+data_parser.rb:115: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:122: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:124: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:126: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:129: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:130: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:134: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:135: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:139: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:140: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:143: syntax error, unexpected keyword_end, expecting '}'
+data_parser.rb:154: syntax error, unexpected tSTRING_DEND, expecting '}'
+data_parser.rb:184: syntax error, unexpected end-of-input, expecting '}'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+[["Earth", 35000.0], ["Moon", 44500.0], ["Mars", 15000.0], ["Uranus", 355600.0], ["Jupiter", 3451.0], ["Pluto", 2344.0], ["Saturn", 1000.0], ["Mercury", 80000.0]]
+data_parser.rb:57:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:57:in `block in pie_chart_prep'
+	from data_parser.rb:57:in `map'
+	from data_parser.rb:57:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+data_parser.rb:156:in `<main>': undefined local variable or method `planet_pie' for main:Object (NameError)
+Did you mean?  planet_pie
+               planet_pie_title
+               planet_ary
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+35000.0
+44500.0
+15000.0
+355600.0
+3451.0
+2344.0
+1000.0
+80000.0
+data_parser.rb:59:in `pie_chart_prep': undefined local variable or method `theme_color' for main:Object (NameError)
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+35000.0
+44500.0
+15000.0
+355600.0
+3451.0
+2344.0
+1000.0
+80000.0
+data_parser.rb:45:in `ary_to_hex_ary': undefined method `darken_color' for main:Object (NoMethodError)
+	from data_parser.rb:59:in `pie_chart_prep'
+	from data_parser.rb:157:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+35000.0
+44500.0
+15000.0
+355600.0
+3451.0
+2344.0
+1000.0
+80000.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :color=>"#517f7a"}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :color=>"#72a09b"}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :color=>"#b5e3de"}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :color=>"#ffffff"}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :color=>"#ffffff"}]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+data_parser.rb:76:in `block in pie_chart_prep': undefined method `value' for 35000.0:Float (NoMethodError)
+	from data_parser.rb:76:in `map'
+	from data_parser.rb:76:in `pie_chart_prep'
+	from data_parser.rb:177:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+data_parser.rb:76:in `block in pie_chart_prep': undefined method `value' for 35000.0:Float (NoMethodError)
+	from data_parser.rb:76:in `map'
+	from data_parser.rb:76:in `pie_chart_prep'
+	from data_parser.rb:177:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+data_parser.rb:76:in `block in pie_chart_prep': undefined method `values' for 35000.0:Float (NoMethodError)
+	from data_parser.rb:76:in `map'
+	from data_parser.rb:76:in `pie_chart_prep'
+	from data_parser.rb:177:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :label=>"35000.0"}
+{"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :label=>"44500.0"}
+{"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :label=>"15000.0"}
+{"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :label=>"355600.0"}
+{"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :label=>"3451.0"}
+{"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :label=>"2344.0"}
+{"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :label=>"1000.0"}
+{"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :label=>"80000.0"}
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :color=>"#517f7a"}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :color=>"#72a09b"}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :color=>"#b5e3de"}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :color=>"#ffffff"}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :color=>"#ffffff"}]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :label=>"35000.0"}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :label=>"44500.0"}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :label=>"15000.0"}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :label=>"355600.0"}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :label=>"3451.0"}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :label=>"2344.0"}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :label=>"1000.0"}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :label=>"80000.0"}]
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :color=>"#517f7a"}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :color=>"#72a09b"}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :color=>"#b5e3de"}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :color=>"#ffffff"}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :color=>"#ffffff"}]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0"}, {:value=>"44500.0"}, {:value=>"15000.0"}, {:value=>"355600.0"}, {:value=>"3451.0"}, {:value=>"2344.0"}, {:value=>"1000.0"}, {:value=>"80000.0"}]
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2, :color=>"#517f7a"}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1, :color=>"#72a09b"}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1, :color=>"#b5e3de"}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2, :color=>"#ffffff"}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1, :color=>"#ffffff"}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1, :color=>"#ffffff"}]
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0"}, {:value=>"44500.0"}, {:value=>"15000.0"}, {:value=>"355600.0"}, {:value=>"3451.0"}, {:value=>"2344.0"}, {:value=>"1000.0"}, {:value=>"80000.0"}]
+New array = [{:value=>"35000.0", :color=>"#517f7a"}, {:value=>"44500.0", :color=>"#72a09b"}, {:value=>"15000.0", :color=>"#b5e3de"}, {:value=>"355600.0", :color=>"#ffffff"}, {:value=>"3451.0", :color=>"#ffffff"}, {:value=>"2344.0", :color=>"#ffffff"}, {:value=>"1000.0", :color=>"#ffffff"}, {:value=>"80000.0", :color=>"#ffffff"}]
+nil
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0"}, {:value=>"44500.0"}, {:value=>"15000.0"}, {:value=>"355600.0"}, {:value=>"3451.0"}, {:value=>"2344.0"}, {:value=>"1000.0"}, {:value=>"80000.0"}]
+New array = [{:value=>"35000.0", :color=>"#517f7a"}, {:value=>"44500.0", :color=>"#72a09b"}, {:value=>"15000.0", :color=>"#b5e3de"}, {:value=>"355600.0", :color=>"#ffffff"}, {:value=>"3451.0", :color=>"#ffffff"}, {:value=>"2344.0", :color=>"#ffffff"}, {:value=>"1000.0", :color=>"#ffffff"}, {:value=>"80000.0", :color=>"#ffffff"}]
+data_parser.rb:81:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:81:in `block in pie_chart_prep'
+	from data_parser.rb:81:in `map'
+	from data_parser.rb:81:in `pie_chart_prep'
+	from data_parser.rb:179:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0"}, {:value=>"44500.0"}, {:value=>"15000.0"}, {:value=>"355600.0"}, {:value=>"3451.0"}, {:value=>"2344.0"}, {:value=>"1000.0"}, {:value=>"80000.0"}]
+New array = [{:value=>"35000.0", :color=>"#517f7a"}, {:value=>"44500.0", :color=>"#72a09b"}, {:value=>"15000.0", :color=>"#b5e3de"}, {:value=>"355600.0", :color=>"#ffffff"}, {:value=>"3451.0", :color=>"#ffffff"}, {:value=>"2344.0", :color=>"#ffffff"}, {:value=>"1000.0", :color=>"#ffffff"}, {:value=>"80000.0", :color=>"#ffffff"}]
+data_parser.rb:81:in `[]': no implicit conversion of String into Integer (TypeError)
+	from data_parser.rb:81:in `block in pie_chart_prep'
+	from data_parser.rb:81:in `map'
+	from data_parser.rb:81:in `pie_chart_prep'
+	from data_parser.rb:179:in `<main>'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0"}, {:value=>"44500.0"}, {:value=>"15000.0"}, {:value=>"355600.0"}, {:value=>"3451.0"}, {:value=>"2344.0"}, {:value=>"1000.0"}, {:value=>"80000.0"}]
+New array = [{:value=>"35000.0", :color=>"#517f7a"}, {:value=>"44500.0", :color=>"#72a09b"}, {:value=>"15000.0", :color=>"#b5e3de"}, {:value=>"355600.0", :color=>"#ffffff"}, {:value=>"3451.0", :color=>"#ffffff"}, {:value=>"2344.0", :color=>"#ffffff"}, {:value=>"1000.0", :color=>"#ffffff"}, {:value=>"80000.0", :color=>"#ffffff"}]
+New array = [{:label=>""}, {:label=>""}, {:label=>""}, {:label=>""}, {:label=>""}, {:label=>""}, {:label=>""}, {:label=>""}]
+nil
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0", :label=>""}, {:value=>"44500.0", :label=>""}, {:value=>"15000.0", :label=>""}, {:value=>"355600.0", :label=>""}, {:value=>"3451.0", :label=>""}, {:value=>"2344.0", :label=>""}, {:value=>"1000.0", :label=>""}, {:value=>"80000.0", :label=>""}]
+New array = [{:value=>"35000.0", :label=>"", :color=>"#517f7a"}, {:value=>"44500.0", :label=>"", :color=>"#72a09b"}, {:value=>"15000.0", :label=>"", :color=>"#b5e3de"}, {:value=>"355600.0", :label=>"", :color=>"#ffffff"}, {:value=>"3451.0", :label=>"", :color=>"#ffffff"}, {:value=>"2344.0", :label=>"", :color=>"#ffffff"}, {:value=>"1000.0", :label=>"", :color=>"#ffffff"}, {:value=>"80000.0", :label=>"", :color=>"#ffffff"}]
+nil
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ ruby data_parser.rb
+Fry
+35000.0
+Lela
+131295.0
+Amy
+15000.0
+Bender
+355600.0
+[{"Destination "=>"Earth", "Delivery Total"=>35000.0, "Bonus Total"=>3500.0, "Delivery Count"=>2}, {"Destination "=>"Moon", "Delivery Total"=>44500.0, "Bonus Total"=>4450.0, "Delivery Count"=>1}, {"Destination "=>"Mars", "Delivery Total"=>15000.0, "Bonus Total"=>1500.0, "Delivery Count"=>1}, {"Destination "=>"Uranus", "Delivery Total"=>355600.0, "Bonus Total"=>35560.0, "Delivery Count"=>2}, {"Destination "=>"Jupiter", "Delivery Total"=>3451.0, "Bonus Total"=>345.1, "Delivery Count"=>1}, {"Destination "=>"Pluto", "Delivery Total"=>2344.0, "Bonus Total"=>234.4, "Delivery Count"=>1}, {"Destination "=>"Saturn", "Delivery Total"=>1000.0, "Bonus Total"=>100.0, "Delivery Count"=>1}, {"Destination "=>"Mercury", "Delivery Total"=>80000.0, "Bonus Total"=>8000.0, "Delivery Count"=>1}]
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+'string', ''
+["Earth", 35000.0, 3500.0, 2]
+["Moon", 44500.0, 4450.0, 1]
+["Mars", 15000.0, 1500.0, 1]
+["Uranus", 355600.0, 35560.0, 2]
+["Jupiter", 3451.0, 345.1, 1]
+["Pluto", 2344.0, 234.4, 1]
+["Saturn", 1000.0, 100.0, 1]
+["Mercury", 80000.0, 8000.0, 1]
+New array = [{:value=>"35000.0", :label=>"Earth"}, {:value=>"44500.0", :label=>"Moon"}, {:value=>"15000.0", :label=>"Mars"}, {:value=>"355600.0", :label=>"Uranus"}, {:value=>"3451.0", :label=>"Jupiter"}, {:value=>"2344.0", :label=>"Pluto"}, {:value=>"1000.0", :label=>"Saturn"}, {:value=>"80000.0", :label=>"Mercury"}]
+New array = [{:value=>"35000.0", :label=>"Earth", :color=>"#517f7a"}, {:value=>"44500.0", :label=>"Moon", :color=>"#72a09b"}, {:value=>"15000.0", :label=>"Mars", :color=>"#b5e3de"}, {:value=>"355600.0", :label=>"Uranus", :color=>"#ffffff"}, {:value=>"3451.0", :label=>"Jupiter", :color=>"#ffffff"}, {:value=>"2344.0", :label=>"Pluto", :color=>"#ffffff"}, {:value=>"1000.0", :label=>"Saturn", :color=>"#ffffff"}, {:value=>"80000.0", :label=>"Mercury", :color=>"#ffffff"}]
+nil
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git init
+Reinitialized existing Git repository in /Users/emilyritter/Documents/Projects/TIY/Lab2-csv-html/.git/
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git add .
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git commit -m "Initial commit"
+[gh-pages ed0eb40] Initial commit
+ 16 files changed, 4937 insertions(+)
+ create mode 100755 Chart.js
+ create mode 100755 Chart.min.js
+ create mode 100644 bender.jpg
+ create mode 100644 data_parser.rb
+ create mode 100644 fry.gif
+ create mode 100644 logo.jpg
+ create mode 100644 nibbler.jpg
+ create mode 100644 normalize.css
+ create mode 100644 play-css.css
+ create mode 100644 play.html
+ create mode 100644 report.html
+ create mode 100644 report.template.html
+ create mode 100644 squid.jpg
+ create mode 100644 styles.css
+ create mode 100644 styles.css.map
+ create mode 100644 styles.scss
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push origin master
+To https://github.com/emilycritter/Lab2-csv-html.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/emilycritter/Lab2-csv-html.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push -u origin master
+To https://github.com/emilycritter/Lab2-csv-html.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/emilycritter/Lab2-csv-html.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git remote add origin https://github.com/emilycritter/Lab2-csv-html.git
+fatal: remote origin already exists.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push -u origin master
+To https://github.com/emilycritter/Lab2-csv-html.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/emilycritter/Lab2-csv-html.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From https://github.com/emilycritter/Lab2-csv-html
+   cd26216..fba3fd8  master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> gh-pages
+
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push -u origin master
+To https://github.com/emilycritter/Lab2-csv-html.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/emilycritter/Lab2-csv-html.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git branch
+* gh-pages
+  master
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git branch
+  gh-pages
+* master
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git add .
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git commit -m "Initial commit."
+On branch master
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+nothing to commit, working directory clean
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git status
+On branch master
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+nothing to commit, working directory clean
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git log
+commit cd26216a9bd5b7973233996b3497fe4778a0242a
+Author: emily.c.ritter <emily.c.ritter@gmail.com>
+Date:   Thu Feb 11 13:15:26 2016 -0600
+
+    Initial push
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push -u origin master
+To https://github.com/emilycritter/Lab2-csv-html.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/emilycritter/Lab2-csv-html.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git pull
+Updating cd26216..fba3fd8
+Fast-forward
+ README.md               |    1 +
+ bootstrap.css           | 6760 -----------------------------------------------
+ planet_express_logs.csv |   11 -
+ 3 files changed, 1 insertion(+), 6771 deletions(-)
+ create mode 100644 README.md
+ delete mode 100644 bootstrap.css
+ delete mode 100644 planet_express_logs.csv
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git --help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git log
+commit fba3fd887a769eb72b4b88d902536ba03dd09479
+Author: emilycritter <emily.c.ritter@gmail.com>
+Date:   Thu Feb 11 13:18:59 2016 -0600
+
+    Delete planet_express_logs.csv
+
+commit 073cc5dc213ef9cdab05466cba06ecdc7491d15c
+Author: emilycritter <emily.c.ritter@gmail.com>
+Date:   Thu Feb 11 13:18:53 2016 -0600
+
+    Delete bootstrap.css
+
+commit 47b79a87adb1757bbcf1732e156550a6c668d23d
+Author: emilycritter <emily.c.ritter@gmail.com>
+Date:   Thu Feb 11 13:18:42 2016 -0600
+
+    Create README.md
+
+commit cd26216a9bd5b7973233996b3497fe4778a0242a
+Author: emily.c.ritter <emily.c.ritter@gmail.com>
+Date:   Thu Feb 11 13:15:26 2016 -0600
+
+    Initial push
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ 
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git push origin gh-pages
+Counting objects: 18, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 750.44 KiB | 0 bytes/s, done.
+Total 18 (delta 2), reused 0 (delta 0)
+To https://github.com/emilycritter/Lab2-csv-html.git
+   cd26216..ed0eb40  gh-pages -> gh-pages
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git checkout gh-pages
+Switched to branch 'gh-pages'
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ git branch
+* gh-pages
+  master
+Emilys-MacBook-Pro:Lab2-csv-html emilyritter$ 

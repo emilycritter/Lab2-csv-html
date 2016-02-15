@@ -1,6 +1,6 @@
 header {
   background-color: #60BBB2;
-  color: white;
+  color: #ffffff;
   border-bottom: 4px solid #0e3a40;
   margin: 0 auto;
   display: flex;
@@ -61,16 +61,37 @@ header {
       max-width: 100%;
       color: #175f6a;
       margin: 0 auto; }
-    .content .data #piechart1, .content .data #piechart2 {
-      border: 4px solid #0e3a40;
-      padding: 0;
-      margin: 0 auto; }
-    .content .data .pie-chart-wrapper {
-      display: flex;
-      flex-direction: row; }
-      .content .data .pie-chart-wrapper .pie-chart {
-        justify-content: center;
-        width: 80%; }
+    .content .data ul {
+      margin: 0 auto;
+      display: inline;
+      list-style: none;
+      padding: 0 10px; }
+      .content .data ul li {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 50%; }
+        .content .data ul li .container {
+          background-color: #ffffff;
+          border: 4px solid #0e3a40;
+          padding: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .content .data ul li .container .canvas {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .content .data ul li .container .canvas canvas {
+              margin: 0 auto;
+              padding: 10px; }
+          .content .data ul li .container .legend {
+            background-color: #ffffff;
+            margin: 0 auto;
+            padding: 10px; }
+            .content .data ul li .container .legend .title {
+              display: block; }
   .content img {
     width: 50%;
     border: 4px solid #0e3a40;
@@ -78,7 +99,7 @@ header {
 
 footer {
   background-color: #208594;
-  color: white;
+  color: #ffffff;
   border-top: 4px solid #0e3a40;
   height: 50px; }
 

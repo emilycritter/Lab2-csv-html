@@ -15,11 +15,13 @@ def parse_data_cont file_name, rows
   rows
 end
 
+
 def formatted_number(n)
   a,b = sprintf("%0.2f", n).split('.')
   a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
   "$#{a}.#{b}"
 end
+
 
 def add_pilot ary_of_hsh
   ary_of_hsh.each do |hsh|
@@ -40,7 +42,7 @@ def add_bonus ary_of_hsh
 end
 
 theme_color = '#60BBB2'
-def darken_color(hex_color, amount=0.4)
+def darken_color(hex_color, amount)
   hex_color = hex_color.gsub('#','')
   rgb = hex_color.scan(/../).map {|color| color.hex}
   rgb[0] = (rgb[0].to_i * amount).round
@@ -59,24 +61,21 @@ def lighten_color(hex_color, amount)
 end
 
 def ary_to_hex_ary (hex, ary)
-  percent = (1.00 / ary.count.to_f).round(2)
-  dark = darken_color(hex, 0.5)
+  percent = (1.00 / (ary.count + 1).to_f).round(2)
+  light = lighten_color(hex, 0.2)
   new_ary = []
-  ary.each do |hsh|
-    light = lighten_color(dark, percent)
-    percent = percent + percent
-    hsh = hsh.merge({color: "#{light}"})
+  ary.each_with_index do |hsh, i|
+    dark = darken_color(light, percent*(i+1))
+    hsh = hsh.merge({color: "#{dark}"})
     new_ary.push(hsh)
   end
   new_ary
 end
 
 def pie_chart_prep ary_of_hsh, hsh_values, label, new_ary, theme_color
-	# new_ary = ary_of_hsh.map {|hsh| hsh[hsh_values]}
-	new_ary = ary_of_hsh.map {|hsh| {value: "#{hsh[hsh_values]}", label: "#{hsh[label]}"}}
-	puts "New array = #{new_ary}"
+	new_ary = ary_of_hsh.map {|hsh| {value: hsh[hsh_values].to_f, label: "#{hsh[label]}"}}
 	new_ary = ary_to_hex_ary(theme_color, new_ary)
-	puts "New array = #{new_ary}"
+	return new_ary
 end
 
 
@@ -131,9 +130,7 @@ end
 # end
 
 pilot_pie_title = "Sales by Pilot"
-pilot_pie = pilot_ary.map {|hsh| [hsh["Pilot "], hsh["Delivery Total"]]}
-# pilot_pie = pilot_pie.unshift(['Pilot', 'Delivery Count'])
-puts pilot_pie
+pilot_pie = pie_chart_prep(pilot_ary, "Delivery Total", "Pilot ", [], theme_color)
 
 # Create hashes with planet summary values
 planet_ary = []
@@ -170,11 +167,7 @@ end
 # end
 
 planet_pie_title = "Sales by Planet"
-# planet_pie = planet_ary.map {|hsh| [hsh["Destination "], hsh["Delivery Total"]]}
-# planet_pie = planet_pie.unshift(['Destination', 'Delivery Count'])
-# puts planet_pie.inspect
 planet_pie = pie_chart_prep(planet_ary, "Delivery Total", "Destination ", [], theme_color)
-puts planet_pie.inspect
 
 # format dollar values
 records.each do |hsh|
@@ -187,9 +180,6 @@ pilot_ary.each do |hsh|
 end
 
 
-pie_chart_title = ""
-
-# puts records
 # ==================== replace
 new_html = ERB.new(the_html).result(binding)
 
