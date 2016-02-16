@@ -74,11 +74,11 @@
       
       data.addRows([
         
+        ["Amy", "$15,000.00", "$1,500.00", "1"],
+        
         ["Fry", "$35,000.00", "$3,500.00", "2"],
         
         ["Lela", "$131,295.00", "$13,129.50", "5"],
-        
-        ["Amy", "$15,000.00", "$1,500.00", "1"],
         
         ["Bender", "$355,600.00", "$35,560.00", "2"],
         
@@ -135,17 +135,17 @@
               
                 <div class="title">
                   <i class="fa fa-square" style="color: #1d302e;"></i>
-                  Fry: $35,000.00
+                  Amy: $15,000.00
                 </div>
                 
                 <div class="title">
                   <i class="fa fa-square" style="color: #3b5f5c;"></i>
-                  Lela: $131,295.00
+                  Fry: $35,000.00
                 </div>
                 
                 <div class="title">
                   <i class="fa fa-square" style="color: #588f89;"></i>
-                  Amy: $15,000.00
+                  Lela: $131,295.00
                 </div>
                 
                 <div class="title">
@@ -166,42 +166,42 @@
               
                 <div class="title">
                   <i class="fa fa-square" style="color: #101a19;"></i>
-                  Earth: $35,000.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #203432;"></i>
-                  Moon: $44,500.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #314f4c;"></i>
-                  Mars: $15,000.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #416965;"></i>
-                  Uranus: $355,600.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #51837e;"></i>
-                  Jupiter: $3,451.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #619d97;"></i>
-                  Pluto: $2,344.00
-                </div>
-                
-                <div class="title">
-                  <i class="fa fa-square" style="color: #71b7b0;"></i>
                   Saturn: $1,000.00
                 </div>
                 
                 <div class="title">
-                  <i class="fa fa-square" style="color: #81d1ca;"></i>
+                  <i class="fa fa-square" style="color: #203432;"></i>
+                  Pluto: $2,344.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #314f4c;"></i>
+                  Jupiter: $3,451.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #416965;"></i>
+                  Mars: $15,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #51837e;"></i>
+                  Earth: $35,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #619d97;"></i>
+                  Moon: $44,500.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #71b7b0;"></i>
                   Mercury: $80,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #81d1ca;"></i>
+                  Uranus: $355,600.00
                 </div>
                 
             </div>
@@ -218,11 +218,20 @@
     var pieData = [
        {
         
+        value: '15000.0',
+        
+        label: 'Amy',
+        
+        color: '#1d302e',
+        
+      },
+       {
+        
         value: '35000.0',
         
         label: 'Fry',
         
-        color: '#1d302e',
+        color: '#3b5f5c',
         
       },
        {
@@ -230,15 +239,6 @@
         value: '131295.0',
         
         label: 'Lela',
-        
-        color: '#3b5f5c',
-        
-      },
-       {
-        
-        value: '15000.0',
-        
-        label: 'Amy',
         
         color: '#588f89',
         
@@ -265,47 +265,11 @@
     var pieData2 = [
        {
         
-        value: '35000.0',
+        value: '1000.0',
         
-        label: 'Earth',
+        label: 'Saturn',
         
         color: '#101a19',
-        
-      },
-       {
-        
-        value: '44500.0',
-        
-        label: 'Moon',
-        
-        color: '#203432',
-        
-      },
-       {
-        
-        value: '15000.0',
-        
-        label: 'Mars',
-        
-        color: '#314f4c',
-        
-      },
-       {
-        
-        value: '355600.0',
-        
-        label: 'Uranus',
-        
-        color: '#416965',
-        
-      },
-       {
-        
-        value: '3451.0',
-        
-        label: 'Jupiter',
-        
-        color: '#51837e',
         
       },
        {
@@ -314,16 +278,43 @@
         
         label: 'Pluto',
         
-        color: '#619d97',
+        color: '#203432',
         
       },
        {
         
-        value: '1000.0',
+        value: '3451.0',
         
-        label: 'Saturn',
+        label: 'Jupiter',
         
-        color: '#71b7b0',
+        color: '#314f4c',
+        
+      },
+       {
+        
+        value: '15000.0',
+        
+        label: 'Mars',
+        
+        color: '#416965',
+        
+      },
+       {
+        
+        value: '35000.0',
+        
+        label: 'Earth',
+        
+        color: '#51837e',
+        
+      },
+       {
+        
+        value: '44500.0',
+        
+        label: 'Moon',
+        
+        color: '#619d97',
         
       },
        {
@@ -331,6 +322,15 @@
         value: '80000.0',
         
         label: 'Mercury',
+        
+        color: '#71b7b0',
+        
+      },
+       {
+        
+        value: '355600.0',
+        
+        label: 'Uranus',
         
         color: '#81d1ca',
         

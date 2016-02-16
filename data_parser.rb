@@ -135,6 +135,7 @@ records.each do |hsh|
     pilot_ary << pilot_new
   end
 end
+pilot_ary = pilot_ary.sort{|x,y| x["Bonus Total"].to_i <=> y["Bonus Total"].to_i}
 # puts pilot_ary.inspect
 # pilot_ary.each do |hsh|
 #   puts "'string', '#{hsh[:name]}'"
@@ -172,6 +173,7 @@ records.each do |hsh|
     planet_ary << planet_new
   end
 end
+planet_ary = planet_ary.sort{|x,y| x["Bonus Total"].to_i <=> y["Bonus Total"].to_i}
 # puts planet_ary.inspect
 # planet_ary.each do |hsh|
 #   puts "'string', '#{hsh[:name]}'"
