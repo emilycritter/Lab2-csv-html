@@ -26,14 +26,15 @@
     // Delivery Summary
     function drawTable_del_sum() {
       var data = new google.visualization.DataTable();
-      <% ((records.first).keys).each do |column| %>
-      data.addColumn('string', '<%= column %>')
+      <% del_sum_add_column.map do |column| %>
+      data.addColumn(<%= column %>)
       <% end %>
-      data.addRows([
-        <% records.each do |hsh| %>
-        <%= hsh.values.inspect %>,
-        <% end %>
-      ]);
+      data.addRows(<%= del_sum_add_rows %>);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 3);
+      formatter.format(data, 5);
 
       var table = new google.visualization.Table(document.getElementById('table_div_del_sum'));
 
@@ -42,6 +43,7 @@
         width: '100%',
         height: '100%'
       });
+
     }
   </script>
 
@@ -135,7 +137,7 @@
         </li>
       </ul>
     </div>
-    <img src="angry.gif" alt="Futurama" />
+    <img src="fry.gif" alt="Futurama" />
   </div>
   <footer></footer>
 

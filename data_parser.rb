@@ -10,15 +10,13 @@ def parse_data file_name
 end
 def parse_data_cont file_name, rows
   CSV.foreach(file_name, headers: true) do |row|
-    rows << row.to_hash
+    shipment = row.to_hash
+		shipment["Money"] = shipment["Money"].to_f
+		shipment["Money"] = shipment["Money"] / 1.000 if shipment["Money"] > 0
+		shipment["Crates"] = shipment["Crates"].to_f
+		rows << shipment
   end
   rows
-end
-
-def formatted_number(n)
-	a,b = sprintf("%0.2f", n).split('.')
-	a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
-	"$#{a}.#{b}"
 end
 
 def add_pilot ary_of_hsh
@@ -35,7 +33,9 @@ end
 
 def add_bonus ary_of_hsh
   ary_of_hsh.each do |hsh|
-    hsh.merge!({"Bonus"=>"#{hsh["Money"].to_f*0.1}"})
+    hsh.merge!({"Bonus"=>"#{hsh["Money"]*0.1}"})
+		hsh["Bonus"] = hsh["Bonus"].to_f
+		hsh["Bonus"] = hsh["Bonus"] / 1.000 if hsh["Bonus"] > 0
   end
 end
 
@@ -47,6 +47,12 @@ def darken_color(hex_color, amount)
   rgb[1] = (rgb[1].to_i * amount).round
   rgb[2] = (rgb[2].to_i * amount).round
   "#%02x%02x%02x" % rgb
+end
+
+def formatted_number(n)
+	a,b = sprintf("%0.2f", n).split('.')
+	a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
+	"$#{a}.#{b}"
 end
 
 def lighten_color(hex_color, amount)
@@ -81,17 +87,27 @@ records = parse_data 'planet_express_logs.csv' # Parse data
 add_pilot records # Add pilot key
 add_bonus records # Add bonus key
 
-
 # Get weekly revenue
-total_rev = (records.map {|records| records["Money"].to_f}).reduce(:+)
+total_rev = (records.map {|records| records["Money"]}).reduce(:+)
 total_rev = formatted_number(total_rev)
 
 # Get number of crates
-total_crates = (records.map {|records| records["Crates"].to_i}).reduce(:+)
+total_crates = (records.map {|records| records["Crates"]}).reduce(:+)
 
 # Get bonuses paid
-total_bonus = (records.map {|records| records["Bonus"].to_f}).reduce(:+)
+total_bonus = (records.map {|records| records["Bonus"]}).reduce(:+)
 total_bonus = formatted_number(total_bonus)
+
+# Get data for Delivery Summary table
+del_sum_add_column = records.last
+del_sum_add_column = del_sum_add_column
+	.map {|hsh| hsh.to_a}
+	.map {|key, value| "'#{value.class.to_s.downcase.gsub('float', 'number')}', '#{key}'"}
+
+del_sum_add_rows = records.map do |hsh|
+	hsh.values
+end
+
 
 # Create hashes with pilot summary values
 pilot_ary = []
