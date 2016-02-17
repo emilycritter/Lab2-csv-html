@@ -6,10 +6,8 @@ the_html = File.read("report.template.html")
 
 # Methods
 def parse_data file_name
-	parse_data_cont file_name, []
-end
-def parse_data_cont file_name, rows
-  CSV.foreach(file_name, headers: true) do |row|
+	rows = []
+	CSV.foreach(file_name, headers: true) do |row|
     shipment = row.to_hash
 		shipment["Money"] = shipment["Money"].to_f
 		shipment["Crates"] = shipment["Crates"].to_f
@@ -41,6 +39,37 @@ def formatted_number(n)
 	a,b = sprintf("%0.2f", n).split('.')
 	a.gsub!(/(\d)(?=(\d{3})+(?!\d))/, '\\1,')
 	"$#{a}.#{b}"
+end
+
+def create_summary_value_ary source_ary, sort_on_key
+	new_ary = []
+	source_ary.each do |hsh|
+	  new_hsh = {}
+	  new_hsh[sort_on_key] = hsh[sort_on_key]
+	  if new_ary.any? {|h| h[sort_on_key] == hsh[sort_on_key]}
+	  else
+	    new_hsh = {}
+	    new_hsh[sort_on_key] = hsh[sort_on_key]
+
+	    new_hsh["Delivery Total"] = source_ary
+	      .select {|item| item[sort_on_key] == hsh[sort_on_key]}
+	      .map {|item| item["Money"].to_f}
+	      .reduce(:+)
+
+	    new_hsh["Bonus Total"] = source_ary
+	      .select {|item| item[sort_on_key] == hsh[sort_on_key]}
+	      .map {|item| item["Bonus"].to_f}
+	      .reduce(:+)
+
+	    new_hsh["Delivery Count"] = source_ary
+	      .select {|item| item[sort_on_key] == hsh[sort_on_key]}
+	      .map {|item| item[sort_on_key]}
+	      .count.to_f
+
+	    new_ary << new_hsh
+	  end
+	end
+	new_ary
 end
 
 def pie_chart_prep ary_of_hsh, hsh_values, label, new_ary, theme_color
@@ -101,84 +130,30 @@ del_sum_add_column = records.last
 del_sum_add_column = del_sum_add_column
 	.map {|hsh| hsh.to_a}
 	.map {|key, value| "'#{value.class.to_s.downcase.gsub('float', 'number')}', '#{key}'"}
+del_sum_add_rows = records.map {|hsh| hsh.values}
 
-del_sum_add_rows = records.map do |hsh|
-	hsh.values
-end
-
-
-# Create hashes with pilot summary values
-pilot_ary = []
-records.each do |hsh|
-  pilot_new = {}
-  pilot_new["Pilot "] = hsh["Pilot"]
-  if pilot_ary.any? {|h| h["Pilot "] == hsh["Pilot"]}
-  else
-    pilot_new = {}
-    pilot_new["Pilot "] = hsh["Pilot"]
-    pilot_new["Delivery Total"] = records
-      .select {|records| records["Pilot"] == hsh["Pilot"]}
-      .map {|records| records["Money"].to_f}
-      .reduce(:+)
-
-    pilot_new["Bonus Total"] = records
-      .select {|records| records["Pilot"] == hsh["Pilot"]}
-      .map {|records| records["Bonus"].to_f}
-      .reduce(:+)
-
-    pilot_new["Delivery Count"] = records
-      .select {|records| records["Pilot"] == hsh["Pilot"]}
-      .map {|records| records["Pilot"]}
-      .count.to_f
-    pilot_ary << pilot_new
-  end
-end
-pilot_ary = pilot_ary.sort{|x,y| x["Bonus Total"].to_f <=> y["Bonus Total"].to_f}
+# Create array of hashes for summary data (by pilot)
+pilot_ary = create_summary_value_ary(records, "Pilot")
+pilot_ary = pilot_ary.sort{|x,y| x["Bonus Total"].to_f <=> y["Bonus Total"].to_f} # sort pilot summary array
 
 # Get data for Employee Summary table
 emp_sum_add_column = pilot_ary.last
 emp_sum_add_column = emp_sum_add_column
 	.map {|hsh| hsh.to_a}
 	.map {|key, value| "'#{value.class.to_s.downcase.gsub('float', 'number')}', '#{key}'"}
+emp_sum_add_rows = pilot_ary.map {|hsh| hsh.values}
 
-emp_sum_add_rows = pilot_ary.map do |hsh|
-	hsh.values
-end
-
-
+# Get data for Pilot pie chart
 pilot_pie_title = "Sales by Pilot"
-pilot_pie = pie_chart_prep(pilot_ary, "Delivery Total", "Pilot ", [], theme_color)
+pilot_pie = pie_chart_prep(pilot_ary, "Delivery Total", "Pilot", [], theme_color)
 
-# Create hashes with planet summary values
-planet_ary = []
-records.each do |hsh|
-  planet_new = {}
-  planet_new["Destination "] = hsh["Destination"]
-  if planet_ary.any? {|h| h["Destination "] == hsh["Destination"]}
-  else
-    planet_new = {}
-    planet_new["Destination "] = hsh["Destination"]
-    planet_new["Delivery Total"] = records
-      .select {|records| records["Destination"] == hsh["Destination"]}
-      .map {|records| records["Money"].to_f}
-      .reduce(:+)
+# Create array of hashes for summary data (by planet)
+planet_ary = create_summary_value_ary(records, "Destination")
+planet_ary = planet_ary.sort{|x,y| x["Bonus Total"].to_i <=> y["Bonus Total"].to_i} # sort planet summary array
 
-    planet_new["Bonus Total"] = records
-      .select {|records| records["Destination"] == hsh["Destination"]}
-      .map {|records| records["Bonus"].to_f}
-      .reduce(:+)
-
-    planet_new["Delivery Count"] = records
-      .select {|records| records["Destination"] == hsh["Destination"]}
-      .map {|records| records["Pilot"]}
-      .count.to_f
-    planet_ary << planet_new
-  end
-end
-planet_ary = planet_ary.sort{|x,y| x["Bonus Total"].to_i <=> y["Bonus Total"].to_i}
-
+# Get data for Planet pie chart
 planet_pie_title = "Sales by Planet"
-planet_pie = pie_chart_prep(planet_ary, "Delivery Total", "Destination ", [], theme_color)
+planet_pie = pie_chart_prep(planet_ary, "Delivery Total", "Destination", [], theme_color)
 
 
 # ==================== replace
