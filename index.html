@@ -66,23 +66,18 @@
       
       data.addColumn('string', 'Pilot ')
       
-      data.addColumn('string', 'Delivery Total')
+      data.addColumn('number', 'Delivery Total')
       
-      data.addColumn('string', 'Bonus Total')
+      data.addColumn('number', 'Bonus Total')
       
-      data.addColumn('string', 'Delivery Count')
+      data.addColumn('number', 'Delivery Count')
       
-      data.addRows([
-        
-        ["Amy", "$15,000.00", "$1,500.00", "1"],
-        
-        ["Fry", "$35,000.00", "$3,500.00", "2"],
-        
-        ["Lela", "$131,295.00", "$13,129.50", "5"],
-        
-        ["Bender", "$355,600.00", "$35,560.00", "2"],
-        
-      ]);
+      data.addRows([["Amy", 15000.0, 1500.0, 1.0], ["Fry", 35000.0, 3500.0, 2.0], ["Lela", 131295.0, 13129.5, 5.0], ["Bender", 355600.0, 35560.0, 2.0]]);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 1);
+      formatter.format(data, 2);
 
       var table = new google.visualization.Table(document.getElementById('table_div_emp_data'));
 

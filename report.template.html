@@ -53,14 +53,15 @@
     // Employee Data
     function drawTable() {
       var data = new google.visualization.DataTable();
-      <% ((pilot_ary.first).keys).each do |column| %>
-      data.addColumn('string', '<%= column %>')
+      <% emp_sum_add_column.map do |column| %>
+      data.addColumn(<%= column %>)
       <% end %>
-      data.addRows([
-        <% pilot_ary.each do |hsh| %>
-        <%= hsh.values.map(&:to_s).inspect %>,
-        <% end %>
-      ]);
+      data.addRows(<%= emp_sum_add_rows %>);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 1);
+      formatter.format(data, 2);
 
       var table = new google.visualization.Table(document.getElementById('table_div_emp_data'));
 
