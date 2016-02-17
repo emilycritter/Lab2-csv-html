@@ -69,6 +69,7 @@ def create_summary_value_ary source_ary, sort_on_key
 	    new_ary << new_hsh
 	  end
 	end
+	new_ary = new_ary.sort{|x,y| x["Delivery Total"] <=> y["Delivery Total"]} # sort array
 	new_ary
 end
 
@@ -134,7 +135,6 @@ del_sum_add_rows = records.map {|hsh| hsh.values}
 
 # Create array of hashes for summary data (by pilot)
 pilot_ary = create_summary_value_ary(records, "Pilot")
-pilot_ary = pilot_ary.sort{|x,y| x["Bonus Total"].to_f <=> y["Bonus Total"].to_f} # sort pilot summary array
 
 # Get data for Employee Summary table
 emp_sum_add_column = pilot_ary.last
@@ -149,7 +149,6 @@ pilot_pie = pie_chart_prep(pilot_ary, "Delivery Total", "Pilot", [], theme_color
 
 # Create array of hashes for summary data (by planet)
 planet_ary = create_summary_value_ary(records, "Destination")
-planet_ary = planet_ary.sort{|x,y| x["Bonus Total"].to_i <=> y["Bonus Total"].to_i} # sort planet summary array
 
 # Get data for Planet pie chart
 planet_pie_title = "Sales by Planet"
