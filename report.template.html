@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Planet Express: Weekly Report</title>
+  <script src='Chart.js'></script>
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="stylesheet" href="normalize.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+  <!-- Tables -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script type="text/javascript">
+    google.charts.load('current', {
+      'packages': ['table', 'corechart']
+    });
+  </script>
+
+  <script type="text/javascript">
+    google.charts.setOnLoadCallback(drawTable_del_sum);
+
+    // Delivery Summary
+    function drawTable_del_sum() {
+      var data = new google.visualization.DataTable();
+      <% del_sum_add_column.map do |column| %>
+      data.addColumn(<%= column %>)
+      <% end %>
+      data.addRows(<%= del_sum_add_rows %>);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 3);
+      formatter.format(data, 5);
+
+      var table = new google.visualization.Table(document.getElementById('table_div_del_sum'));
+
+      table.draw(data, {
+        showRowNumber: false,
+        width: '100%',
+        height: '100%'
+      });
+
+    }
+  </script>
+
+  <script type="text/javascript">
+    google.charts.setOnLoadCallback(drawTable);
+
+    // Employee Data
+    function drawTable() {
+      var data = new google.visualization.DataTable();
+      <% emp_sum_add_column.map do |column| %>
+      data.addColumn(<%= column %>)
+      <% end %>
+      data.addRows(<%= emp_sum_add_rows %>);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 1);
+      formatter.format(data, 2);
+
+      var table = new google.visualization.Table(document.getElementById('table_div_emp_data'));
+
+      table.draw(data, {
+        showRowNumber: false,
+        width: '100%',
+        height: '100%'
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <!-- <h1>Planet Express: Weekly Report</h1> -->
+    <img src="logo.jpg" alt="Logo" />
+  </header>
+  <div class="columns">
+    <div class="column">
+      <img src="bender.jpg" alt="Bender" />
+      <h2>Crates Shipped</h2>
+      <h3><%= total_crates %></h3>
+    </div>
+    <div class="column" id="highlight">
+      <img src="nibbler.jpg" alt="Nibbler" />
+      <h2>Weekly Revenue</h2>
+      <h3><%= total_rev %></h3>
+    </div>
+    <div class="column">
+      <img src="squid.jpg" alt="Squid-guy" />
+      <h2>Bonuses Paid</h2>
+      <h3><%= total_bonus %></h3>
+    </div>
+  </div>
+  <div class="content">
+    <div class="data">
+      <h3>Delivery Summary</h3>
+      <div id="table_div_del_sum"></div>
+      <h3>Employee Data</h3>
+      <div id="table_div_emp_data"></div>
+      <ul class="pie_chart_wrapper">
+        <li class="pie_chart">
+          <h3><%= pilot_pie_title %></h3>
+          <div class="container">
+            <div class = "canvas" style="width: 100%; height: 100%;">
+              <canvas id="pie_chart1" width="300" height="300"></canvas>
+            </div>
+            <div class="legend">
+              <% pilot_pie.each do |hsh| %>
+                <div class="title">
+                  <i class="fa fa-square" style="color: <%= hsh[:color] %>;"></i>
+                  <%= hsh[:label] %>: <%= formatted_number(hsh[:value]) %>
+                </div>
+                <% end %>
+            </div>
+          </div>
+        </li>
+        <li class="pie_chart">
+          <h3><%= planet_pie_title %></h3>
+          <div class="container">
+            <div class = "canvas" style="width: 100%; height: 100%;">
+              <canvas id="pie_chart2" width="300" height="300"></canvas>
+            </div>
+            <div class="legend">
+              <% planet_pie.each do |hsh| %>
+                <div class="title">
+                  <i class="fa fa-square" style="color: <%= hsh[:color] %>;"></i>
+                  <%= hsh[:label] %>: <%= formatted_number(hsh[:value]) %>
+                </div>
+                <% end %>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <img src="fry.gif" alt="Futurama" />
+  </div>
+  <footer></footer>
+
+  <!-- Pie Charts -->
+  <script>
+    var pieData = [
+      <% pilot_pie.each do |hsh| %> {
+        <% hsh.each do |key, value| %>
+        <%= key %>: '<%= value %>',
+        <% end %>
+      },
+      <% end %>
+    ];
+    var pieOptions = {
+      segmentShowStroke: false,
+      animateScale: true
+    }
+    var pie_chart1 = document.getElementById("pie_chart1").getContext("2d");
+    new Chart(pie_chart1).Pie(pieData, pieOptions);
+  </script>
+  <script>
+    var pieData2 = [
+      <% planet_pie.each do |hsh| %> {
+        <% hsh.each do |key, value| %>
+        <%= key %>: '<%= value %>',
+        <% end %>
+      },
+      <% end %>
+    ];
+    var pieOptions2 = {
+      segmentShowStroke: false,
+      animateScale: true
+    }
+    var pie_chart2 = document.getElementById("pie_chart2").getContext("2d");
+    new Chart(pie_chart2).Pie(pieData2, pieOptions2);
+  </script>
+</body>
+
+</html>

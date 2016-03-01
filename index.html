@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Planet Express: Weekly Report</title>
+  <script src='Chart.js'></script>
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="stylesheet" href="normalize.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+  <!-- Tables -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script type="text/javascript">
+    google.charts.load('current', {
+      'packages': ['table', 'corechart']
+    });
+  </script>
+
+  <script type="text/javascript">
+    google.charts.setOnLoadCallback(drawTable_del_sum);
+
+    // Delivery Summary
+    function drawTable_del_sum() {
+      var data = new google.visualization.DataTable();
+      
+      data.addColumn('string', 'Destination')
+      
+      data.addColumn('string', 'Shipment')
+      
+      data.addColumn('number', 'Crates')
+      
+      data.addColumn('number', 'Money')
+      
+      data.addColumn('string', 'Pilot')
+      
+      data.addColumn('number', 'Bonus')
+      
+      data.addRows([["Earth", "Hamburgers", 150.0, 30000.0, "Fry", 3000.0], ["Moon", "Tacos", 33.0, 44500.0, "Lela", 4450.0], ["Earth", "Movies", 34.0, 5000.0, "Fry", 500.0], ["Mars", "BBQ Sauce", 999.0, 15000.0, "Amy", 1500.0], ["Uranus", "Whiskey", 1000.0, 345600.0, "Bender", 34560.0], ["Jupiter", "Books", 10.0, 3451.0, "Lela", 345.1], ["Pluto", "Beer", 100.0, 2344.0, "Lela", 234.4], ["Uranus", "Pizza", 66.0, 10000.0, "Bender", 1000.0], ["Saturn", "Pizza", 26.0, 1000.0, "Lela", 100.0], ["Mercury", "Pizza", 36.0, 80000.0, "Lela", 8000.0]]);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 3);
+      formatter.format(data, 5);
+
+      var table = new google.visualization.Table(document.getElementById('table_div_del_sum'));
+
+      table.draw(data, {
+        showRowNumber: false,
+        width: '100%',
+        height: '100%'
+      });
+
+    }
+  </script>
+
+  <script type="text/javascript">
+    google.charts.setOnLoadCallback(drawTable);
+
+    // Employee Data
+    function drawTable() {
+      var data = new google.visualization.DataTable();
+      
+      data.addColumn('string', 'Pilot')
+      
+      data.addColumn('number', 'Delivery Total')
+      
+      data.addColumn('number', 'Bonus Total')
+      
+      data.addColumn('number', 'Delivery Count')
+      
+      data.addRows([["Amy", 15000.0, 1500.0, 1.0], ["Fry", 35000.0, 3500.0, 2.0], ["Lela", 131295.0, 13129.5, 5.0], ["Bender", 355600.0, 35560.0, 2.0]]);
+
+      var formatter = new google.visualization.NumberFormat(
+        {negativeColor: 'red', negativeParens: true, pattern: '$###,###.00'});
+      formatter.format(data, 1);
+      formatter.format(data, 2);
+
+      var table = new google.visualization.Table(document.getElementById('table_div_emp_data'));
+
+      table.draw(data, {
+        showRowNumber: false,
+        width: '100%',
+        height: '100%'
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <!-- <h1>Planet Express: Weekly Report</h1> -->
+    <img src="logo.jpg" alt="Logo" />
+  </header>
+  <div class="columns">
+    <div class="column">
+      <img src="bender.jpg" alt="Bender" />
+      <h2>Crates Shipped</h2>
+      <h3>2454.0</h3>
+    </div>
+    <div class="column" id="highlight">
+      <img src="nibbler.jpg" alt="Nibbler" />
+      <h2>Weekly Revenue</h2>
+      <h3>$536,895.00</h3>
+    </div>
+    <div class="column">
+      <img src="squid.jpg" alt="Squid-guy" />
+      <h2>Bonuses Paid</h2>
+      <h3>$53,689.50</h3>
+    </div>
+  </div>
+  <div class="content">
+    <div class="data">
+      <h3>Delivery Summary</h3>
+      <div id="table_div_del_sum"></div>
+      <h3>Employee Data</h3>
+      <div id="table_div_emp_data"></div>
+      <ul class="pie_chart_wrapper">
+        <li class="pie_chart">
+          <h3>Sales by Pilot</h3>
+          <div class="container">
+            <div class = "canvas" style="width: 100%; height: 100%;">
+              <canvas id="pie_chart1" width="300" height="300"></canvas>
+            </div>
+            <div class="legend">
+              
+                <div class="title">
+                  <i class="fa fa-square" style="color: #1d302e;"></i>
+                  Amy: $15,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #3b5f5c;"></i>
+                  Fry: $35,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #588f89;"></i>
+                  Lela: $131,295.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #76beb7;"></i>
+                  Bender: $355,600.00
+                </div>
+                
+            </div>
+          </div>
+        </li>
+        <li class="pie_chart">
+          <h3>Sales by Planet</h3>
+          <div class="container">
+            <div class = "canvas" style="width: 100%; height: 100%;">
+              <canvas id="pie_chart2" width="300" height="300"></canvas>
+            </div>
+            <div class="legend">
+              
+                <div class="title">
+                  <i class="fa fa-square" style="color: #101a19;"></i>
+                  Saturn: $1,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #203432;"></i>
+                  Pluto: $2,344.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #314f4c;"></i>
+                  Jupiter: $3,451.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #416965;"></i>
+                  Mars: $15,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #51837e;"></i>
+                  Earth: $35,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #619d97;"></i>
+                  Moon: $44,500.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #71b7b0;"></i>
+                  Mercury: $80,000.00
+                </div>
+                
+                <div class="title">
+                  <i class="fa fa-square" style="color: #81d1ca;"></i>
+                  Uranus: $355,600.00
+                </div>
+                
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <img src="fry.gif" alt="Futurama" />
+  </div>
+  <footer></footer>
+
+  <!-- Pie Charts -->
+  <script>
+    var pieData = [
+       {
+        
+        value: '15000.0',
+        
+        label: 'Amy',
+        
+        color: '#1d302e',
+        
+      },
+       {
+        
+        value: '35000.0',
+        
+        label: 'Fry',
+        
+        color: '#3b5f5c',
+        
+      },
+       {
+        
+        value: '131295.0',
+        
+        label: 'Lela',
+        
+        color: '#588f89',
+        
+      },
+       {
+        
+        value: '355600.0',
+        
+        label: 'Bender',
+        
+        color: '#76beb7',
+        
+      },
+      
+    ];
+    var pieOptions = {
+      segmentShowStroke: false,
+      animateScale: true
+    }
+    var pie_chart1 = document.getElementById("pie_chart1").getContext("2d");
+    new Chart(pie_chart1).Pie(pieData, pieOptions);
+  </script>
+  <script>
+    var pieData2 = [
+       {
+        
+        value: '1000.0',
+        
+        label: 'Saturn',
+        
+        color: '#101a19',
+        
+      },
+       {
+        
+        value: '2344.0',
+        
+        label: 'Pluto',
+        
+        color: '#203432',
+        
+      },
+       {
+        
+        value: '3451.0',
+        
+        label: 'Jupiter',
+        
+        color: '#314f4c',
+        
+      },
+       {
+        
+        value: '15000.0',
+        
+        label: 'Mars',
+        
+        color: '#416965',
+        
+      },
+       {
+        
+        value: '35000.0',
+        
+        label: 'Earth',
+        
+        color: '#51837e',
+        
+      },
+       {
+        
+        value: '44500.0',
+        
+        label: 'Moon',
+        
+        color: '#619d97',
+        
+      },
+       {
+        
+        value: '80000.0',
+        
+        label: 'Mercury',
+        
+        color: '#71b7b0',
+        
+      },
+       {
+        
+        value: '355600.0',
+        
+        label: 'Uranus',
+        
+        color: '#81d1ca',
+        
+      },
+      
+    ];
+    var pieOptions2 = {
+      segmentShowStroke: false,
+      animateScale: true
+    }
+    var pie_chart2 = document.getElementById("pie_chart2").getContext("2d");
+    new Chart(pie_chart2).Pie(pieData2, pieOptions2);
+  </script>
+</body>
+
+</html>

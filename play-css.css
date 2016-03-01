@@ -1,0 +1,10 @@
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+}
