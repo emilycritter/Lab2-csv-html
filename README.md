@@ -7,6 +7,7 @@
 After completing this assignment, you should…
 * Understand data design
 * Deeply understand ruby styles, variables, and loops
+
 ###### Performance Objectives
 After completing this assignment, you be able to effectively use
 * ruby on the command line
@@ -17,14 +18,14 @@ After completing this assignment, you be able to effectively use
 ## Details
 ###### Deliverables
 * A link to a github repository with at least the following:
-'''
+```
   * planet_express_logs.csv
   * data_parser.rb
   * report.erb
   * styles.css
-'''
+```
 ###### Requirements
-* I should be able to run '''ruby data_parser.rb''' and have report.html generated
+* I should be able to run `ruby data_parser.rb` and have report.html generated
 * The HTML file should have some styles, use normalize
 * The HTML should have a pie chart using Google charts, like so:
 http://i.imgur.com/8trAn2j.png
@@ -62,13 +63,13 @@ And so: We need sections on the HTML with:
 
 ## Epic Mode
 * No methods can be longer than 10 lines long
-* Define a class "Parse", with a method '''parse_data''', with an argument '''file_name'''
-* Make '''data_parser.rb executable''' with a command line argument of the file name '''./data_parser.rb planet_express_logs.csv > report.html'''
+* Define a class "Parse", with a method `parse_data`, with an argument `file_name`
+* Make `data_parser.rb executable` with a command line argument of the file name `./data_parser.rb planet_express_logs.csv > report.html`
 
 ## Notes
-File name: '''planet_express_logs.csv'''
+File name: `planet_express_logs.csv`
 
-'''Destination,Shipment,Crates,Money
+```Destination,Shipment,Crates,Money
 Earth,Hamburgers,150,30000
 Moon,Tacos,33,44500
 Earth,Movies,34,5000
@@ -78,19 +79,25 @@ Jupiter,Books,10,3451
 Pluto,Beer,100,2344
 Uranus,Pizza,66,10000
 Saturn,Pizza,26,1000
-Mercury,Pizza,36,80000'''
+Mercury,Pizza,36,80000
+```
+
 ###### sample ruby code
+```
 require 'csv'
 CSV.foreach("planet_express_logs.csv", headers: true) do |row|
   puts row.inspect # replace with your logic
 end
-###### sample code to create an HTML file from a '''template.erb'''
-'''html_string = File.read("template.erb")
+```
+###### sample code to create an HTML file from a `template.erb`
+```
+html_string = File.read("template.erb")
 compiled_html = ERB.new(html_string).result(binding)
 File.open("./index-output.html", "wb") {|file|
     file.write(compiled_html)
     file.close()
-}'''
+}
+```
 
 ## Additional Resources
 * Google Chart Docs
