@@ -28,7 +28,10 @@ After completing this assignment, you be able to effectively use
 * I should be able to run `ruby data_parser.rb` and have report.html generated
 * The HTML file should have some styles, use normalize
 * The HTML should have a pie chart using Google charts, like so:
-http://i.imgur.com/8trAn2j.png
+![alt text][logo]
+
+[logo]: http://i.imgur.com/8trAn2j.png "Chart"
+
 ###### Optional Ideas
 1. Use Material Design Light to style your report
 2. Use Bootstrap to style your report
@@ -100,8 +103,8 @@ File.open("./index-output.html", "wb") {|file|
 ```
 
 ## Additional Resources
-* Google Chart Docs
-* JS Fiddle of working Google Chart
-* ERB Docs
+* [Google Chart Docs] (https://google-developers.appspot.com/chart/interactive/docs/gallery/piechart)
+* [JS Fiddle of working Google Chart] (https://jsfiddle.net/0q925L2d/)
+* [ERB Docs] (http://ruby-doc.org/stdlib-2.2.3/libdoc/erb/rdoc/ERB.html)
 * Read http://www.nostarch.com/rubywizardry if you feel lost on Ruby basics
-* CSV documentation
+* [CSV documentation] http://ruby-doc.org/stdlib-2.2.2/libdoc/csv/rdoc/CSV.html
