@@ -108,5 +108,3 @@ File.open("./index-output.html", "wb") {|file|
 * [ERB Docs] (http://ruby-doc.org/stdlib-2.2.3/libdoc/erb/rdoc/ERB.html)
 * Read http://www.nostarch.com/rubywizardry if you feel lost on Ruby basics
 * [CSV documentation] http://ruby-doc.org/stdlib-2.2.2/libdoc/csv/rdoc/CSV.html
-=======
-Planet Express: Weekly Report
